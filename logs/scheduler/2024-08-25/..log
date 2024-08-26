@@ -1,0 +1,94 @@
+[2024-08-25 13:41:38,091] {processor.py:153} INFO - Started process (PID=47862) to work on /home/adrilucy/Documentos/airflow-alura/dags
+[2024-08-25 13:41:38,092] {processor.py:641} INFO - Processing file /home/adrilucy/Documentos/airflow-alura/dags for tasks to queue
+[2024-08-25 13:41:38,093] {logging_mixin.py:115} INFO - [2024-08-25 13:41:38,093] {dagbag.py:507} INFO - Filling up the DagBag from /home/adrilucy/Documentos/airflow-alura/dags
+[2024-08-25 13:41:38,094] {logging_mixin.py:115} INFO - [2024-08-25 13:41:38,093] {dagbag.py:300} INFO - File /home/adrilucy/Documentos/airflow-alura/dags assumed to contain no DAGs. Skipping.
+[2024-08-25 13:41:38,094] {processor.py:653} WARNING - No viable dags retrieved from /home/adrilucy/Documentos/airflow-alura/dags
+[2024-08-25 13:41:38,103] {processor.py:161} INFO - Processing /home/adrilucy/Documentos/airflow-alura/dags took 0.017 seconds
+[2024-08-25 13:42:12,775] {processor.py:153} INFO - Started process (PID=48134) to work on /home/adrilucy/Documentos/airflow-alura/dags
+[2024-08-25 13:42:12,783] {processor.py:641} INFO - Processing file /home/adrilucy/Documentos/airflow-alura/dags for tasks to queue
+[2024-08-25 13:42:12,783] {logging_mixin.py:115} INFO - [2024-08-25 13:42:12,783] {dagbag.py:507} INFO - Filling up the DagBag from /home/adrilucy/Documentos/airflow-alura/dags
+[2024-08-25 13:42:12,784] {processor.py:653} WARNING - No viable dags retrieved from /home/adrilucy/Documentos/airflow-alura/dags
+[2024-08-25 13:42:12,797] {processor.py:161} INFO - Processing /home/adrilucy/Documentos/airflow-alura/dags took 0.027 seconds
+[2024-08-25 13:42:47,958] {processor.py:153} INFO - Started process (PID=48606) to work on /home/adrilucy/Documentos/airflow-alura/dags
+[2024-08-25 13:42:47,965] {processor.py:641} INFO - Processing file /home/adrilucy/Documentos/airflow-alura/dags for tasks to queue
+[2024-08-25 13:42:47,966] {logging_mixin.py:115} INFO - [2024-08-25 13:42:47,966] {dagbag.py:507} INFO - Filling up the DagBag from /home/adrilucy/Documentos/airflow-alura/dags
+[2024-08-25 13:42:47,969] {processor.py:653} WARNING - No viable dags retrieved from /home/adrilucy/Documentos/airflow-alura/dags
+[2024-08-25 13:42:47,977] {processor.py:161} INFO - Processing /home/adrilucy/Documentos/airflow-alura/dags took 0.022 seconds
+[2024-08-25 13:43:22,683] {processor.py:153} INFO - Started process (PID=48966) to work on /home/adrilucy/Documentos/airflow-alura/dags
+[2024-08-25 13:43:22,689] {processor.py:641} INFO - Processing file /home/adrilucy/Documentos/airflow-alura/dags for tasks to queue
+[2024-08-25 13:43:22,689] {logging_mixin.py:115} INFO - [2024-08-25 13:43:22,689] {dagbag.py:507} INFO - Filling up the DagBag from /home/adrilucy/Documentos/airflow-alura/dags
+[2024-08-25 13:43:22,691] {processor.py:653} WARNING - No viable dags retrieved from /home/adrilucy/Documentos/airflow-alura/dags
+[2024-08-25 13:43:22,699] {processor.py:161} INFO - Processing /home/adrilucy/Documentos/airflow-alura/dags took 0.020 seconds
+[2024-08-25 13:43:56,292] {processor.py:153} INFO - Started process (PID=49312) to work on /home/adrilucy/Documentos/airflow-alura/dags
+[2024-08-25 13:43:56,298] {processor.py:641} INFO - Processing file /home/adrilucy/Documentos/airflow-alura/dags for tasks to queue
+[2024-08-25 13:43:56,299] {logging_mixin.py:115} INFO - [2024-08-25 13:43:56,299] {dagbag.py:507} INFO - Filling up the DagBag from /home/adrilucy/Documentos/airflow-alura/dags
+[2024-08-25 13:43:56,300] {processor.py:653} WARNING - No viable dags retrieved from /home/adrilucy/Documentos/airflow-alura/dags
+[2024-08-25 13:43:56,308] {processor.py:161} INFO - Processing /home/adrilucy/Documentos/airflow-alura/dags took 0.018 seconds
+[2024-08-25 13:44:29,007] {processor.py:153} INFO - Started process (PID=49564) to work on /home/adrilucy/Documentos/airflow-alura/dags
+[2024-08-25 13:44:29,014] {processor.py:641} INFO - Processing file /home/adrilucy/Documentos/airflow-alura/dags for tasks to queue
+[2024-08-25 13:44:29,015] {logging_mixin.py:115} INFO - [2024-08-25 13:44:29,014] {dagbag.py:507} INFO - Filling up the DagBag from /home/adrilucy/Documentos/airflow-alura/dags
+[2024-08-25 13:44:29,018] {logging_mixin.py:115} INFO - [2024-08-25 13:44:29,017] {dagbag.py:320} ERROR - Failed to import: /home/adrilucy/Documentos/airflow-alura/dags/meu_primeiro_dag.py
+Traceback (most recent call last):
+  File "/home/adrilucy/Documentos/airflow-alura/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 846, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 983, in get_code
+  File "<frozen importlib._bootstrap_external>", line 913, in source_to_code
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/adrilucy/Documentos/airflow-alura/dags/meu_primeiro_dag.py", line 6
+    )
+    ^
+SyntaxError: invalid syntax
+[2024-08-25 13:44:29,018] {processor.py:653} WARNING - No viable dags retrieved from /home/adrilucy/Documentos/airflow-alura/dags
+[2024-08-25 13:44:29,038] {processor.py:161} INFO - Processing /home/adrilucy/Documentos/airflow-alura/dags took 0.035 seconds
+[2024-08-25 13:45:01,623] {processor.py:153} INFO - Started process (PID=49830) to work on /home/adrilucy/Documentos/airflow-alura/dags
+[2024-08-25 13:45:01,630] {processor.py:641} INFO - Processing file /home/adrilucy/Documentos/airflow-alura/dags for tasks to queue
+[2024-08-25 13:45:01,630] {logging_mixin.py:115} INFO - [2024-08-25 13:45:01,630] {dagbag.py:507} INFO - Filling up the DagBag from /home/adrilucy/Documentos/airflow-alura/dags
+[2024-08-25 13:45:01,632] {logging_mixin.py:115} INFO - [2024-08-25 13:45:01,632] {dagbag.py:320} ERROR - Failed to import: /home/adrilucy/Documentos/airflow-alura/dags/meu_primeiro_dag.py
+Traceback (most recent call last):
+  File "/home/adrilucy/Documentos/airflow-alura/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 846, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 983, in get_code
+  File "<frozen importlib._bootstrap_external>", line 913, in source_to_code
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/adrilucy/Documentos/airflow-alura/dags/meu_primeiro_dag.py", line 7
+    )
+     ^
+SyntaxError: invalid syntax
+[2024-08-25 13:45:01,633] {processor.py:653} WARNING - No viable dags retrieved from /home/adrilucy/Documentos/airflow-alura/dags
+[2024-08-25 13:45:01,650] {processor.py:161} INFO - Processing /home/adrilucy/Documentos/airflow-alura/dags took 0.031 seconds
+[2024-08-25 13:45:36,383] {processor.py:153} INFO - Started process (PID=50101) to work on /home/adrilucy/Documentos/airflow-alura/dags
+[2024-08-25 13:45:36,384] {processor.py:641} INFO - Processing file /home/adrilucy/Documentos/airflow-alura/dags for tasks to queue
+[2024-08-25 13:45:36,385] {logging_mixin.py:115} INFO - [2024-08-25 13:45:36,385] {dagbag.py:507} INFO - Filling up the DagBag from /home/adrilucy/Documentos/airflow-alura/dags
+[2024-08-25 13:45:36,387] {logging_mixin.py:115} INFO - [2024-08-25 13:45:36,386] {dagbag.py:320} ERROR - Failed to import: /home/adrilucy/Documentos/airflow-alura/dags/meu_primeiro_dag.py
+Traceback (most recent call last):
+  File "/home/adrilucy/Documentos/airflow-alura/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 846, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 983, in get_code
+  File "<frozen importlib._bootstrap_external>", line 913, in source_to_code
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/adrilucy/Documentos/airflow-alura/dags/meu_primeiro_dag.py", line 8
+    ) as dag:
+             ^
+IndentationError: expected an indented block
+[2024-08-25 13:45:36,387] {processor.py:653} WARNING - No viable dags retrieved from /home/adrilucy/Documentos/airflow-alura/dags
+[2024-08-25 13:45:36,404] {processor.py:161} INFO - Processing /home/adrilucy/Documentos/airflow-alura/dags took 0.023 seconds
+[2024-08-25 13:46:06,630] {processor.py:153} INFO - Started process (PID=50341) to work on /home/adrilucy/Documentos/airflow-alura/dags
+[2024-08-25 13:46:06,632] {processor.py:641} INFO - Processing file /home/adrilucy/Documentos/airflow-alura/dags for tasks to queue
+[2024-08-25 13:46:06,633] {logging_mixin.py:115} INFO - [2024-08-25 13:46:06,633] {dagbag.py:507} INFO - Filling up the DagBag from /home/adrilucy/Documentos/airflow-alura/dags
+[2024-08-25 13:46:06,636] {logging_mixin.py:115} INFO - [2024-08-25 13:46:06,635] {dagbag.py:320} ERROR - Failed to import: /home/adrilucy/Documentos/airflow-alura/dags/meu_primeiro_dag.py
+Traceback (most recent call last):
+  File "/home/adrilucy/Documentos/airflow-alura/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 846, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 983, in get_code
+  File "<frozen importlib._bootstrap_external>", line 913, in source_to_code
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/adrilucy/Documentos/airflow-alura/dags/meu_primeiro_dag.py", line 8
+    ) as dag:
+             ^
+IndentationError: expected an indented block
+[2024-08-25 13:46:06,636] {processor.py:653} WARNING - No viable dags retrieved from /home/adrilucy/Documentos/airflow-alura/dags
+[2024-08-25 13:46:06,656] {processor.py:161} INFO - Processing /home/adrilucy/Documentos/airflow-alura/dags took 0.031 seconds

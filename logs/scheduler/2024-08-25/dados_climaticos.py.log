@@ -1,0 +1,1042 @@
+[2024-08-25 17:08:44,361] {processor.py:153} INFO - Started process (PID=145519) to work on /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 17:08:44,362] {processor.py:641} INFO - Processing file /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py for tasks to queue
+[2024-08-25 17:08:44,363] {logging_mixin.py:115} INFO - [2024-08-25 17:08:44,362] {dagbag.py:507} INFO - Filling up the DagBag from /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 17:08:44,364] {logging_mixin.py:115} INFO - [2024-08-25 17:08:44,364] {dagbag.py:320} ERROR - Failed to import: /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+Traceback (most recent call last):
+  File "/home/adrilucy/Documentos/airflow-alura/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 846, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 983, in get_code
+  File "<frozen importlib._bootstrap_external>", line 913, in source_to_code
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py", line 7
+    start_date=pendulum.datetime(2022, 8, 22, tz="UTC"),
+    ^
+SyntaxError: invalid syntax
+[2024-08-25 17:08:44,365] {processor.py:653} WARNING - No viable dags retrieved from /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 17:08:44,399] {processor.py:161} INFO - Processing /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py took 0.042 seconds
+[2024-08-25 17:09:19,116] {processor.py:153} INFO - Started process (PID=145792) to work on /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 17:09:19,118] {processor.py:641} INFO - Processing file /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py for tasks to queue
+[2024-08-25 17:09:19,119] {logging_mixin.py:115} INFO - [2024-08-25 17:09:19,118] {dagbag.py:507} INFO - Filling up the DagBag from /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 17:09:19,126] {processor.py:651} INFO - DAG(s) dict_keys(['dados_climaticos']) retrieved from /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 17:09:19,177] {logging_mixin.py:115} INFO - [2024-08-25 17:09:19,177] {manager.py:508} INFO - Created Permission View: can delete on DAG:dados_climaticos
+[2024-08-25 17:09:19,186] {logging_mixin.py:115} INFO - [2024-08-25 17:09:19,186] {manager.py:508} INFO - Created Permission View: can read on DAG:dados_climaticos
+[2024-08-25 17:09:19,196] {logging_mixin.py:115} INFO - [2024-08-25 17:09:19,195] {manager.py:508} INFO - Created Permission View: can edit on DAG:dados_climaticos
+[2024-08-25 17:09:19,196] {logging_mixin.py:115} INFO - [2024-08-25 17:09:19,196] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-08-25 17:09:19,201] {logging_mixin.py:115} INFO - [2024-08-25 17:09:19,201] {dag.py:2398} INFO - Creating ORM DAG for dados_climaticos
+[2024-08-25 17:09:19,209] {logging_mixin.py:115} INFO - [2024-08-25 17:09:19,209] {dag.py:2927} INFO - Setting next_dagrun for dados_climaticos to 2022-08-22T00:00:00+00:00, run_after=2022-08-29T00:00:00+00:00
+[2024-08-25 17:09:19,228] {processor.py:161} INFO - Processing /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py took 0.114 seconds
+[2024-08-25 17:09:57,560] {processor.py:153} INFO - Started process (PID=146086) to work on /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 17:09:57,567] {processor.py:641} INFO - Processing file /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py for tasks to queue
+[2024-08-25 17:09:57,569] {logging_mixin.py:115} INFO - [2024-08-25 17:09:57,568] {dagbag.py:507} INFO - Filling up the DagBag from /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 17:09:57,578] {processor.py:651} INFO - DAG(s) dict_keys(['dados_climaticos']) retrieved from /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 17:09:57,589] {logging_mixin.py:115} INFO - [2024-08-25 17:09:57,589] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-08-25 17:09:57,602] {logging_mixin.py:115} INFO - [2024-08-25 17:09:57,601] {dag.py:2927} INFO - Setting next_dagrun for dados_climaticos to 2022-08-22T00:00:00+00:00, run_after=2022-08-29T00:00:00+00:00
+[2024-08-25 17:09:57,614] {processor.py:161} INFO - Processing /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py took 0.060 seconds
+[2024-08-25 17:10:29,538] {processor.py:153} INFO - Started process (PID=146340) to work on /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 17:10:29,539] {processor.py:641} INFO - Processing file /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py for tasks to queue
+[2024-08-25 17:10:29,540] {logging_mixin.py:115} INFO - [2024-08-25 17:10:29,540] {dagbag.py:507} INFO - Filling up the DagBag from /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 17:10:29,544] {processor.py:651} INFO - DAG(s) dict_keys(['dados_climaticos']) retrieved from /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 17:10:29,558] {logging_mixin.py:115} INFO - [2024-08-25 17:10:29,558] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-08-25 17:10:29,574] {logging_mixin.py:115} INFO - [2024-08-25 17:10:29,573] {dag.py:2927} INFO - Setting next_dagrun for dados_climaticos to 2022-08-22T00:00:00+00:00, run_after=2022-08-29T00:00:00+00:00
+[2024-08-25 17:10:29,590] {processor.py:161} INFO - Processing /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py took 0.058 seconds
+[2024-08-25 17:11:02,147] {processor.py:153} INFO - Started process (PID=146596) to work on /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 17:11:02,147] {processor.py:641} INFO - Processing file /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py for tasks to queue
+[2024-08-25 17:11:02,147] {logging_mixin.py:115} INFO - [2024-08-25 17:11:02,147] {dagbag.py:507} INFO - Filling up the DagBag from /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 17:11:02,153] {processor.py:651} INFO - DAG(s) dict_keys(['dados_climaticos']) retrieved from /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 17:11:02,163] {logging_mixin.py:115} INFO - [2024-08-25 17:11:02,163] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-08-25 17:11:02,178] {logging_mixin.py:115} INFO - [2024-08-25 17:11:02,178] {dag.py:2927} INFO - Setting next_dagrun for dados_climaticos to 2022-08-22T00:00:00+00:00, run_after=2022-08-29T00:00:00+00:00
+[2024-08-25 17:11:02,190] {processor.py:161} INFO - Processing /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py took 0.047 seconds
+[2024-08-25 17:11:32,930] {processor.py:153} INFO - Started process (PID=146839) to work on /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 17:11:32,931] {processor.py:641} INFO - Processing file /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py for tasks to queue
+[2024-08-25 17:11:32,932] {logging_mixin.py:115} INFO - [2024-08-25 17:11:32,932] {dagbag.py:507} INFO - Filling up the DagBag from /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 17:11:32,941] {processor.py:651} INFO - DAG(s) dict_keys(['dados_climaticos']) retrieved from /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 17:11:32,954] {logging_mixin.py:115} INFO - [2024-08-25 17:11:32,954] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-08-25 17:11:32,968] {logging_mixin.py:115} INFO - [2024-08-25 17:11:32,968] {dag.py:2927} INFO - Setting next_dagrun for dados_climaticos to 2022-08-22T00:00:00+00:00, run_after=2022-08-29T00:00:00+00:00
+[2024-08-25 17:11:32,981] {processor.py:161} INFO - Processing /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py took 0.056 seconds
+[2024-08-25 17:12:06,095] {processor.py:153} INFO - Started process (PID=147096) to work on /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 17:12:06,097] {processor.py:641} INFO - Processing file /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py for tasks to queue
+[2024-08-25 17:12:06,098] {logging_mixin.py:115} INFO - [2024-08-25 17:12:06,098] {dagbag.py:507} INFO - Filling up the DagBag from /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 17:12:06,103] {processor.py:651} INFO - DAG(s) dict_keys(['dados_climaticos']) retrieved from /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 17:12:06,116] {logging_mixin.py:115} INFO - [2024-08-25 17:12:06,116] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-08-25 17:12:06,132] {logging_mixin.py:115} INFO - [2024-08-25 17:12:06,131] {dag.py:2927} INFO - Setting next_dagrun for dados_climaticos to 2022-08-22T00:00:00+00:00, run_after=2022-08-29T00:00:00+00:00
+[2024-08-25 17:12:06,148] {processor.py:161} INFO - Processing /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py took 0.056 seconds
+[2024-08-25 17:12:41,276] {processor.py:153} INFO - Started process (PID=147371) to work on /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 17:12:41,278] {processor.py:641} INFO - Processing file /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py for tasks to queue
+[2024-08-25 17:12:41,280] {logging_mixin.py:115} INFO - [2024-08-25 17:12:41,279] {dagbag.py:507} INFO - Filling up the DagBag from /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 17:12:41,293] {processor.py:651} INFO - DAG(s) dict_keys(['dados_climaticos']) retrieved from /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 17:12:41,319] {logging_mixin.py:115} INFO - [2024-08-25 17:12:41,319] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-08-25 17:12:41,338] {logging_mixin.py:115} INFO - [2024-08-25 17:12:41,338] {dag.py:2927} INFO - Setting next_dagrun for dados_climaticos to 2022-08-22T00:00:00+00:00, run_after=2022-08-29T00:00:00+00:00
+[2024-08-25 17:12:41,351] {processor.py:161} INFO - Processing /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py took 0.081 seconds
+[2024-08-25 17:13:11,604] {processor.py:153} INFO - Started process (PID=147609) to work on /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 17:13:11,605] {processor.py:641} INFO - Processing file /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py for tasks to queue
+[2024-08-25 17:13:11,606] {logging_mixin.py:115} INFO - [2024-08-25 17:13:11,606] {dagbag.py:507} INFO - Filling up the DagBag from /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 17:13:11,616] {processor.py:651} INFO - DAG(s) dict_keys(['dados_climaticos']) retrieved from /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 17:13:11,627] {logging_mixin.py:115} INFO - [2024-08-25 17:13:11,627] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-08-25 17:13:11,640] {logging_mixin.py:115} INFO - [2024-08-25 17:13:11,639] {dag.py:2927} INFO - Setting next_dagrun for dados_climaticos to 2022-08-22T00:00:00+00:00, run_after=2022-08-29T00:00:00+00:00
+[2024-08-25 17:13:11,652] {processor.py:161} INFO - Processing /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py took 0.053 seconds
+[2024-08-25 17:13:46,840] {processor.py:153} INFO - Started process (PID=147885) to work on /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 17:13:46,846] {processor.py:641} INFO - Processing file /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py for tasks to queue
+[2024-08-25 17:13:46,847] {logging_mixin.py:115} INFO - [2024-08-25 17:13:46,847] {dagbag.py:507} INFO - Filling up the DagBag from /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 17:13:46,857] {processor.py:651} INFO - DAG(s) dict_keys(['dados_climaticos']) retrieved from /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 17:13:46,871] {logging_mixin.py:115} INFO - [2024-08-25 17:13:46,870] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-08-25 17:13:46,883] {logging_mixin.py:115} INFO - [2024-08-25 17:13:46,883] {dag.py:2927} INFO - Setting next_dagrun for dados_climaticos to 2022-08-22T00:00:00+00:00, run_after=2022-08-29T00:00:00+00:00
+[2024-08-25 17:13:46,897] {processor.py:161} INFO - Processing /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py took 0.062 seconds
+[2024-08-25 17:14:20,338] {processor.py:153} INFO - Started process (PID=148146) to work on /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 17:14:20,339] {processor.py:641} INFO - Processing file /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py for tasks to queue
+[2024-08-25 17:14:20,339] {logging_mixin.py:115} INFO - [2024-08-25 17:14:20,339] {dagbag.py:507} INFO - Filling up the DagBag from /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 17:14:20,345] {processor.py:651} INFO - DAG(s) dict_keys(['dados_climaticos']) retrieved from /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 17:14:20,356] {logging_mixin.py:115} INFO - [2024-08-25 17:14:20,356] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-08-25 17:14:20,369] {logging_mixin.py:115} INFO - [2024-08-25 17:14:20,369] {dag.py:2927} INFO - Setting next_dagrun for dados_climaticos to 2022-08-22T00:00:00+00:00, run_after=2022-08-29T00:00:00+00:00
+[2024-08-25 17:14:20,381] {processor.py:161} INFO - Processing /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py took 0.049 seconds
+[2024-08-25 17:14:56,056] {processor.py:153} INFO - Started process (PID=148427) to work on /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 17:14:56,064] {processor.py:641} INFO - Processing file /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py for tasks to queue
+[2024-08-25 17:14:56,065] {logging_mixin.py:115} INFO - [2024-08-25 17:14:56,064] {dagbag.py:507} INFO - Filling up the DagBag from /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 17:14:56,070] {processor.py:651} INFO - DAG(s) dict_keys(['dados_climaticos']) retrieved from /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 17:14:56,099] {logging_mixin.py:115} INFO - [2024-08-25 17:14:56,099] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-08-25 17:14:56,129] {logging_mixin.py:115} INFO - [2024-08-25 17:14:56,129] {dag.py:2927} INFO - Setting next_dagrun for dados_climaticos to 2022-08-22T00:00:00+00:00, run_after=2022-08-29T00:00:00+00:00
+[2024-08-25 17:14:56,148] {processor.py:161} INFO - Processing /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py took 0.097 seconds
+[2024-08-25 17:15:29,305] {processor.py:153} INFO - Started process (PID=148688) to work on /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 17:15:29,312] {processor.py:641} INFO - Processing file /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py for tasks to queue
+[2024-08-25 17:15:29,313] {logging_mixin.py:115} INFO - [2024-08-25 17:15:29,313] {dagbag.py:507} INFO - Filling up the DagBag from /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 17:15:29,319] {processor.py:651} INFO - DAG(s) dict_keys(['dados_climaticos']) retrieved from /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 17:15:29,331] {logging_mixin.py:115} INFO - [2024-08-25 17:15:29,331] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-08-25 17:15:29,347] {logging_mixin.py:115} INFO - [2024-08-25 17:15:29,347] {dag.py:2927} INFO - Setting next_dagrun for dados_climaticos to 2022-08-22T00:00:00+00:00, run_after=2022-08-29T00:00:00+00:00
+[2024-08-25 17:15:29,360] {processor.py:161} INFO - Processing /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py took 0.059 seconds
+[2024-08-25 17:16:03,009] {processor.py:153} INFO - Started process (PID=148950) to work on /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 17:16:03,016] {processor.py:641} INFO - Processing file /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py for tasks to queue
+[2024-08-25 17:16:03,017] {logging_mixin.py:115} INFO - [2024-08-25 17:16:03,017] {dagbag.py:507} INFO - Filling up the DagBag from /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 17:16:03,026] {processor.py:651} INFO - DAG(s) dict_keys(['dados_climaticos']) retrieved from /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 17:16:03,038] {logging_mixin.py:115} INFO - [2024-08-25 17:16:03,038] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-08-25 17:16:03,058] {logging_mixin.py:115} INFO - [2024-08-25 17:16:03,057] {dag.py:2927} INFO - Setting next_dagrun for dados_climaticos to 2022-08-22T00:00:00+00:00, run_after=2022-08-29T00:00:00+00:00
+[2024-08-25 17:16:03,071] {processor.py:161} INFO - Processing /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py took 0.068 seconds
+[2024-08-25 17:16:39,013] {processor.py:153} INFO - Started process (PID=149234) to work on /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 17:16:39,014] {processor.py:641} INFO - Processing file /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py for tasks to queue
+[2024-08-25 17:16:39,015] {logging_mixin.py:115} INFO - [2024-08-25 17:16:39,015] {dagbag.py:507} INFO - Filling up the DagBag from /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 17:16:39,025] {processor.py:651} INFO - DAG(s) dict_keys(['dados_climaticos']) retrieved from /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 17:16:39,042] {logging_mixin.py:115} INFO - [2024-08-25 17:16:39,042] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-08-25 17:16:39,061] {logging_mixin.py:115} INFO - [2024-08-25 17:16:39,060] {dag.py:2927} INFO - Setting next_dagrun for dados_climaticos to 2022-08-22T00:00:00+00:00, run_after=2022-08-29T00:00:00+00:00
+[2024-08-25 17:16:39,073] {processor.py:161} INFO - Processing /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py took 0.064 seconds
+[2024-08-25 17:17:09,762] {processor.py:153} INFO - Started process (PID=149478) to work on /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 17:17:09,763] {processor.py:641} INFO - Processing file /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py for tasks to queue
+[2024-08-25 17:17:09,764] {logging_mixin.py:115} INFO - [2024-08-25 17:17:09,764] {dagbag.py:507} INFO - Filling up the DagBag from /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 17:17:09,769] {processor.py:651} INFO - DAG(s) dict_keys(['dados_climaticos']) retrieved from /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 17:17:09,779] {logging_mixin.py:115} INFO - [2024-08-25 17:17:09,779] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-08-25 17:17:09,793] {logging_mixin.py:115} INFO - [2024-08-25 17:17:09,793] {dag.py:2927} INFO - Setting next_dagrun for dados_climaticos to 2022-08-22T00:00:00+00:00, run_after=2022-08-29T00:00:00+00:00
+[2024-08-25 17:17:09,805] {processor.py:161} INFO - Processing /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py took 0.045 seconds
+[2024-08-25 17:17:40,502] {processor.py:153} INFO - Started process (PID=149719) to work on /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 17:17:40,510] {processor.py:641} INFO - Processing file /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py for tasks to queue
+[2024-08-25 17:17:40,510] {logging_mixin.py:115} INFO - [2024-08-25 17:17:40,510] {dagbag.py:507} INFO - Filling up the DagBag from /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 17:17:40,517] {processor.py:651} INFO - DAG(s) dict_keys(['dados_climaticos']) retrieved from /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 17:17:40,527] {logging_mixin.py:115} INFO - [2024-08-25 17:17:40,527] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-08-25 17:17:40,539] {logging_mixin.py:115} INFO - [2024-08-25 17:17:40,539] {dag.py:2927} INFO - Setting next_dagrun for dados_climaticos to 2022-08-22T00:00:00+00:00, run_after=2022-08-29T00:00:00+00:00
+[2024-08-25 17:17:40,552] {processor.py:161} INFO - Processing /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py took 0.056 seconds
+[2024-08-25 17:18:15,373] {processor.py:153} INFO - Started process (PID=149989) to work on /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 17:18:15,380] {processor.py:641} INFO - Processing file /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py for tasks to queue
+[2024-08-25 17:18:15,380] {logging_mixin.py:115} INFO - [2024-08-25 17:18:15,380] {dagbag.py:507} INFO - Filling up the DagBag from /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 17:18:15,384] {processor.py:651} INFO - DAG(s) dict_keys(['dados_climaticos']) retrieved from /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 17:18:15,397] {logging_mixin.py:115} INFO - [2024-08-25 17:18:15,396] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-08-25 17:18:15,409] {logging_mixin.py:115} INFO - [2024-08-25 17:18:15,409] {dag.py:2927} INFO - Setting next_dagrun for dados_climaticos to 2022-08-22T00:00:00+00:00, run_after=2022-08-29T00:00:00+00:00
+[2024-08-25 17:18:15,422] {processor.py:161} INFO - Processing /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py took 0.051 seconds
+[2024-08-25 17:18:49,894] {processor.py:153} INFO - Started process (PID=150260) to work on /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 17:18:49,896] {processor.py:641} INFO - Processing file /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py for tasks to queue
+[2024-08-25 17:18:49,897] {logging_mixin.py:115} INFO - [2024-08-25 17:18:49,897] {dagbag.py:507} INFO - Filling up the DagBag from /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 17:18:49,904] {processor.py:651} INFO - DAG(s) dict_keys(['dados_climaticos']) retrieved from /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 17:18:49,914] {logging_mixin.py:115} INFO - [2024-08-25 17:18:49,914] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-08-25 17:18:49,927] {logging_mixin.py:115} INFO - [2024-08-25 17:18:49,927] {dag.py:2927} INFO - Setting next_dagrun for dados_climaticos to 2022-08-22T00:00:00+00:00, run_after=2022-08-29T00:00:00+00:00
+[2024-08-25 17:18:49,939] {processor.py:161} INFO - Processing /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py took 0.050 seconds
+[2024-08-25 17:19:21,816] {processor.py:153} INFO - Started process (PID=150513) to work on /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 17:19:21,823] {processor.py:641} INFO - Processing file /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py for tasks to queue
+[2024-08-25 17:19:21,824] {logging_mixin.py:115} INFO - [2024-08-25 17:19:21,824] {dagbag.py:507} INFO - Filling up the DagBag from /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 17:19:21,829] {processor.py:651} INFO - DAG(s) dict_keys(['dados_climaticos']) retrieved from /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 17:19:21,843] {logging_mixin.py:115} INFO - [2024-08-25 17:19:21,843] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-08-25 17:19:21,861] {logging_mixin.py:115} INFO - [2024-08-25 17:19:21,861] {dag.py:2927} INFO - Setting next_dagrun for dados_climaticos to 2022-08-22T00:00:00+00:00, run_after=2022-08-29T00:00:00+00:00
+[2024-08-25 17:19:21,876] {processor.py:161} INFO - Processing /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py took 0.064 seconds
+[2024-08-25 17:19:53,174] {processor.py:153} INFO - Started process (PID=150757) to work on /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 17:19:53,174] {processor.py:641} INFO - Processing file /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py for tasks to queue
+[2024-08-25 17:19:53,175] {logging_mixin.py:115} INFO - [2024-08-25 17:19:53,175] {dagbag.py:507} INFO - Filling up the DagBag from /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 17:19:53,180] {processor.py:651} INFO - DAG(s) dict_keys(['dados_climaticos']) retrieved from /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 17:19:53,191] {logging_mixin.py:115} INFO - [2024-08-25 17:19:53,191] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-08-25 17:19:53,204] {logging_mixin.py:115} INFO - [2024-08-25 17:19:53,204] {dag.py:2927} INFO - Setting next_dagrun for dados_climaticos to 2022-08-22T00:00:00+00:00, run_after=2022-08-29T00:00:00+00:00
+[2024-08-25 17:19:53,217] {processor.py:161} INFO - Processing /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py took 0.046 seconds
+[2024-08-25 17:20:28,057] {processor.py:153} INFO - Started process (PID=151045) to work on /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 17:20:28,059] {processor.py:641} INFO - Processing file /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py for tasks to queue
+[2024-08-25 17:20:28,060] {logging_mixin.py:115} INFO - [2024-08-25 17:20:28,059] {dagbag.py:507} INFO - Filling up the DagBag from /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 17:20:28,068] {processor.py:651} INFO - DAG(s) dict_keys(['dados_climaticos']) retrieved from /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 17:20:28,078] {logging_mixin.py:115} INFO - [2024-08-25 17:20:28,078] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-08-25 17:20:28,092] {logging_mixin.py:115} INFO - [2024-08-25 17:20:28,092] {dag.py:2927} INFO - Setting next_dagrun for dados_climaticos to 2022-08-22T00:00:00+00:00, run_after=2022-08-29T00:00:00+00:00
+[2024-08-25 17:20:28,106] {processor.py:161} INFO - Processing /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py took 0.052 seconds
+[2024-08-25 17:21:05,134] {processor.py:153} INFO - Started process (PID=151334) to work on /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 17:21:05,141] {processor.py:641} INFO - Processing file /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py for tasks to queue
+[2024-08-25 17:21:05,142] {logging_mixin.py:115} INFO - [2024-08-25 17:21:05,142] {dagbag.py:507} INFO - Filling up the DagBag from /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 17:21:05,145] {logging_mixin.py:115} INFO - [2024-08-25 17:21:05,144] {dagbag.py:320} ERROR - Failed to import: /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+Traceback (most recent call last):
+  File "/home/adrilucy/Documentos/airflow-alura/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 846, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 983, in get_code
+  File "<frozen importlib._bootstrap_external>", line 913, in source_to_code
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py", line 19
+    python
+    ^
+SyntaxError: invalid syntax
+[2024-08-25 17:21:05,145] {processor.py:653} WARNING - No viable dags retrieved from /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 17:21:05,167] {processor.py:161} INFO - Processing /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py took 0.038 seconds
+[2024-08-25 17:21:39,520] {processor.py:153} INFO - Started process (PID=151606) to work on /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 17:21:39,527] {processor.py:641} INFO - Processing file /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py for tasks to queue
+[2024-08-25 17:21:39,527] {logging_mixin.py:115} INFO - [2024-08-25 17:21:39,527] {dagbag.py:507} INFO - Filling up the DagBag from /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 17:21:39,529] {logging_mixin.py:115} INFO - [2024-08-25 17:21:39,529] {dagbag.py:320} ERROR - Failed to import: /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+Traceback (most recent call last):
+  File "/home/adrilucy/Documentos/airflow-alura/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 846, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 983, in get_code
+  File "<frozen importlib._bootstrap_external>", line 913, in source_to_code
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py", line 21
+    tarefa_2 = PythonOperator(
+    ^
+IndentationError: expected an indented block
+[2024-08-25 17:21:39,529] {processor.py:653} WARNING - No viable dags retrieved from /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 17:21:39,549] {processor.py:161} INFO - Processing /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py took 0.032 seconds
+[2024-08-25 17:22:12,136] {processor.py:153} INFO - Started process (PID=151888) to work on /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 17:22:12,143] {processor.py:641} INFO - Processing file /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py for tasks to queue
+[2024-08-25 17:22:12,144] {logging_mixin.py:115} INFO - [2024-08-25 17:22:12,144] {dagbag.py:507} INFO - Filling up the DagBag from /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 17:22:12,147] {logging_mixin.py:115} INFO - [2024-08-25 17:22:12,146] {dagbag.py:320} ERROR - Failed to import: /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+Traceback (most recent call last):
+  File "/home/adrilucy/Documentos/airflow-alura/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 846, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 983, in get_code
+  File "<frozen importlib._bootstrap_external>", line 913, in source_to_code
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py", line 21
+    tarefa_2 = PythonOperator(
+    ^
+IndentationError: expected an indented block
+[2024-08-25 17:22:12,147] {processor.py:653} WARNING - No viable dags retrieved from /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 17:22:12,169] {processor.py:161} INFO - Processing /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py took 0.037 seconds
+[2024-08-25 17:22:45,595] {processor.py:153} INFO - Started process (PID=152155) to work on /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 17:22:45,600] {processor.py:641} INFO - Processing file /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py for tasks to queue
+[2024-08-25 17:22:45,601] {logging_mixin.py:115} INFO - [2024-08-25 17:22:45,601] {dagbag.py:507} INFO - Filling up the DagBag from /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 17:22:45,605] {logging_mixin.py:115} INFO - [2024-08-25 17:22:45,604] {dagbag.py:320} ERROR - Failed to import: /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+Traceback (most recent call last):
+  File "/home/adrilucy/Documentos/airflow-alura/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 846, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 983, in get_code
+  File "<frozen importlib._bootstrap_external>", line 913, in source_to_code
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py", line 26
+    tarefa_2 = PythonOperator(
+    ^
+IndentationError: expected an indented block
+[2024-08-25 17:22:45,606] {processor.py:653} WARNING - No viable dags retrieved from /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 17:22:45,652] {processor.py:161} INFO - Processing /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py took 0.064 seconds
+[2024-08-25 17:23:16,471] {processor.py:153} INFO - Started process (PID=152396) to work on /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 17:23:16,479] {processor.py:641} INFO - Processing file /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py for tasks to queue
+[2024-08-25 17:23:16,480] {logging_mixin.py:115} INFO - [2024-08-25 17:23:16,480] {dagbag.py:507} INFO - Filling up the DagBag from /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 17:23:16,484] {logging_mixin.py:115} INFO - [2024-08-25 17:23:16,483] {dagbag.py:320} ERROR - Failed to import: /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+Traceback (most recent call last):
+  File "/home/adrilucy/Documentos/airflow-alura/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 846, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 983, in get_code
+  File "<frozen importlib._bootstrap_external>", line 913, in source_to_code
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py", line 53
+    python_callable = extrai_dados
+    ^
+SyntaxError: invalid syntax
+[2024-08-25 17:23:16,484] {processor.py:653} WARNING - No viable dags retrieved from /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 17:23:16,505] {processor.py:161} INFO - Processing /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py took 0.039 seconds
+[2024-08-25 17:23:50,302] {processor.py:153} INFO - Started process (PID=152659) to work on /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 17:23:50,304] {processor.py:641} INFO - Processing file /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py for tasks to queue
+[2024-08-25 17:23:50,305] {logging_mixin.py:115} INFO - [2024-08-25 17:23:50,305] {dagbag.py:507} INFO - Filling up the DagBag from /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 17:23:50,307] {logging_mixin.py:115} INFO - [2024-08-25 17:23:50,307] {dagbag.py:320} ERROR - Failed to import: /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+Traceback (most recent call last):
+  File "/home/adrilucy/Documentos/airflow-alura/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 846, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 983, in get_code
+  File "<frozen importlib._bootstrap_external>", line 913, in source_to_code
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py", line 45
+    python_callable = extrai_dados
+    ^
+SyntaxError: invalid syntax
+[2024-08-25 17:23:50,308] {processor.py:653} WARNING - No viable dags retrieved from /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 17:23:50,325] {processor.py:161} INFO - Processing /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py took 0.027 seconds
+[2024-08-25 17:24:22,909] {processor.py:153} INFO - Started process (PID=152914) to work on /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 17:24:22,916] {processor.py:641} INFO - Processing file /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py for tasks to queue
+[2024-08-25 17:24:22,917] {logging_mixin.py:115} INFO - [2024-08-25 17:24:22,916] {dagbag.py:507} INFO - Filling up the DagBag from /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 17:24:22,920] {logging_mixin.py:115} INFO - [2024-08-25 17:24:22,919] {dagbag.py:320} ERROR - Failed to import: /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+Traceback (most recent call last):
+  File "/home/adrilucy/Documentos/airflow-alura/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 846, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 983, in get_code
+  File "<frozen importlib._bootstrap_external>", line 913, in source_to_code
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py", line 45
+    python_callable = extrai_dados
+    ^
+SyntaxError: invalid syntax
+[2024-08-25 17:24:22,920] {processor.py:653} WARNING - No viable dags retrieved from /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 17:24:22,943] {processor.py:161} INFO - Processing /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py took 0.039 seconds
+[2024-08-25 17:24:58,019] {processor.py:153} INFO - Started process (PID=153189) to work on /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 17:24:58,020] {processor.py:641} INFO - Processing file /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py for tasks to queue
+[2024-08-25 17:24:58,021] {logging_mixin.py:115} INFO - [2024-08-25 17:24:58,021] {dagbag.py:507} INFO - Filling up the DagBag from /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 17:24:58,023] {logging_mixin.py:115} INFO - [2024-08-25 17:24:58,023] {dagbag.py:320} ERROR - Failed to import: /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+Traceback (most recent call last):
+  File "/home/adrilucy/Documentos/airflow-alura/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 846, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 983, in get_code
+  File "<frozen importlib._bootstrap_external>", line 913, in source_to_code
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py", line 45
+    python_callable = extrai_dados
+    ^
+SyntaxError: invalid syntax
+[2024-08-25 17:24:58,024] {processor.py:653} WARNING - No viable dags retrieved from /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 17:24:58,044] {processor.py:161} INFO - Processing /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py took 0.028 seconds
+[2024-08-25 17:25:31,731] {processor.py:153} INFO - Started process (PID=153458) to work on /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 17:25:31,734] {processor.py:641} INFO - Processing file /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py for tasks to queue
+[2024-08-25 17:25:31,734] {logging_mixin.py:115} INFO - [2024-08-25 17:25:31,734] {dagbag.py:507} INFO - Filling up the DagBag from /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 17:25:31,738] {logging_mixin.py:115} INFO - [2024-08-25 17:25:31,737] {dagbag.py:320} ERROR - Failed to import: /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+Traceback (most recent call last):
+  File "/home/adrilucy/Documentos/airflow-alura/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 846, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 983, in get_code
+  File "<frozen importlib._bootstrap_external>", line 913, in source_to_code
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py", line 45
+    python_callable = extrai_dados
+    ^
+SyntaxError: invalid syntax
+[2024-08-25 17:25:31,739] {processor.py:653} WARNING - No viable dags retrieved from /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 17:25:31,763] {processor.py:161} INFO - Processing /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py took 0.037 seconds
+[2024-08-25 17:26:02,118] {processor.py:153} INFO - Started process (PID=153691) to work on /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 17:26:02,126] {processor.py:641} INFO - Processing file /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py for tasks to queue
+[2024-08-25 17:26:02,126] {logging_mixin.py:115} INFO - [2024-08-25 17:26:02,126] {dagbag.py:507} INFO - Filling up the DagBag from /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 17:26:02,129] {logging_mixin.py:115} INFO - [2024-08-25 17:26:02,128] {dagbag.py:320} ERROR - Failed to import: /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+Traceback (most recent call last):
+  File "/home/adrilucy/Documentos/airflow-alura/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 846, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 983, in get_code
+  File "<frozen importlib._bootstrap_external>", line 913, in source_to_code
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py", line 45
+    python_callable = extrai_dados,
+    ^
+SyntaxError: invalid syntax
+[2024-08-25 17:26:02,129] {processor.py:653} WARNING - No viable dags retrieved from /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 17:26:02,150] {processor.py:161} INFO - Processing /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py took 0.036 seconds
+[2024-08-25 17:26:34,764] {processor.py:153} INFO - Started process (PID=153947) to work on /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 17:26:34,765] {processor.py:641} INFO - Processing file /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py for tasks to queue
+[2024-08-25 17:26:34,766] {logging_mixin.py:115} INFO - [2024-08-25 17:26:34,766] {dagbag.py:507} INFO - Filling up the DagBag from /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 17:26:34,768] {logging_mixin.py:115} INFO - [2024-08-25 17:26:34,767] {dagbag.py:320} ERROR - Failed to import: /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+Traceback (most recent call last):
+  File "/home/adrilucy/Documentos/airflow-alura/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 846, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 983, in get_code
+  File "<frozen importlib._bootstrap_external>", line 913, in source_to_code
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py", line 45
+    python_callable = extrai_dados,
+    ^
+SyntaxError: invalid syntax
+[2024-08-25 17:26:34,768] {processor.py:653} WARNING - No viable dags retrieved from /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 17:26:34,784] {processor.py:161} INFO - Processing /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py took 0.022 seconds
+[2024-08-25 17:27:10,682] {processor.py:153} INFO - Started process (PID=154231) to work on /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 17:27:10,690] {processor.py:641} INFO - Processing file /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py for tasks to queue
+[2024-08-25 17:27:10,691] {logging_mixin.py:115} INFO - [2024-08-25 17:27:10,690] {dagbag.py:507} INFO - Filling up the DagBag from /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 17:27:10,693] {logging_mixin.py:115} INFO - [2024-08-25 17:27:10,692] {dagbag.py:320} ERROR - Failed to import: /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+Traceback (most recent call last):
+  File "/home/adrilucy/Documentos/airflow-alura/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 846, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 983, in get_code
+  File "<frozen importlib._bootstrap_external>", line 913, in source_to_code
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py", line 45
+    python_callable = extrai_dados,
+    ^
+SyntaxError: invalid syntax
+[2024-08-25 17:27:10,694] {processor.py:653} WARNING - No viable dags retrieved from /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 17:27:10,713] {processor.py:161} INFO - Processing /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py took 0.035 seconds
+[2024-08-25 17:27:47,972] {processor.py:153} INFO - Started process (PID=154521) to work on /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 17:27:47,979] {processor.py:641} INFO - Processing file /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py for tasks to queue
+[2024-08-25 17:27:47,980] {logging_mixin.py:115} INFO - [2024-08-25 17:27:47,980] {dagbag.py:507} INFO - Filling up the DagBag from /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 17:27:47,989] {logging_mixin.py:115} INFO - [2024-08-25 17:27:47,989] {dagbag.py:320} ERROR - Failed to import: /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+Traceback (most recent call last):
+  File "/home/adrilucy/Documentos/airflow-alura/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py", line 7, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2024-08-25 17:27:47,990] {processor.py:653} WARNING - No viable dags retrieved from /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 17:27:48,007] {processor.py:161} INFO - Processing /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py took 0.039 seconds
+[2024-08-25 17:28:19,864] {processor.py:153} INFO - Started process (PID=154767) to work on /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 17:28:19,872] {processor.py:641} INFO - Processing file /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py for tasks to queue
+[2024-08-25 17:28:19,873] {logging_mixin.py:115} INFO - [2024-08-25 17:28:19,873] {dagbag.py:507} INFO - Filling up the DagBag from /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 17:28:19,877] {logging_mixin.py:115} INFO - [2024-08-25 17:28:19,875] {dagbag.py:320} ERROR - Failed to import: /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+Traceback (most recent call last):
+  File "/home/adrilucy/Documentos/airflow-alura/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 846, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 983, in get_code
+  File "<frozen importlib._bootstrap_external>", line 913, in source_to_code
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py", line 4
+    from airflow.macros
+                       ^
+SyntaxError: invalid syntax
+[2024-08-25 17:28:19,877] {processor.py:653} WARNING - No viable dags retrieved from /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 17:28:19,896] {processor.py:161} INFO - Processing /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py took 0.038 seconds
+[2024-08-25 17:28:50,933] {processor.py:153} INFO - Started process (PID=155010) to work on /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 17:28:50,940] {processor.py:641} INFO - Processing file /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py for tasks to queue
+[2024-08-25 17:28:50,941] {logging_mixin.py:115} INFO - [2024-08-25 17:28:50,941] {dagbag.py:507} INFO - Filling up the DagBag from /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 17:28:50,950] {logging_mixin.py:115} INFO - [2024-08-25 17:28:50,949] {dagbag.py:320} ERROR - Failed to import: /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+Traceback (most recent call last):
+  File "/home/adrilucy/Documentos/airflow-alura/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py", line 8, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2024-08-25 17:28:50,950] {processor.py:653} WARNING - No viable dags retrieved from /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 17:28:50,968] {processor.py:161} INFO - Processing /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py took 0.038 seconds
+[2024-08-25 17:29:21,733] {processor.py:153} INFO - Started process (PID=155252) to work on /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 17:29:21,740] {processor.py:641} INFO - Processing file /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py for tasks to queue
+[2024-08-25 17:29:21,741] {logging_mixin.py:115} INFO - [2024-08-25 17:29:21,741] {dagbag.py:507} INFO - Filling up the DagBag from /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 17:29:21,751] {logging_mixin.py:115} INFO - [2024-08-25 17:29:21,751] {dagbag.py:320} ERROR - Failed to import: /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+Traceback (most recent call last):
+  File "/home/adrilucy/Documentos/airflow-alura/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py", line 8, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2024-08-25 17:29:21,752] {processor.py:653} WARNING - No viable dags retrieved from /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 17:29:21,771] {processor.py:161} INFO - Processing /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py took 0.042 seconds
+[2024-08-25 17:31:45,459] {processor.py:153} INFO - Started process (PID=156246) to work on /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 17:31:45,460] {processor.py:641} INFO - Processing file /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py for tasks to queue
+[2024-08-25 17:31:45,461] {logging_mixin.py:115} INFO - [2024-08-25 17:31:45,460] {dagbag.py:507} INFO - Filling up the DagBag from /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 17:31:45,466] {logging_mixin.py:115} INFO - [2024-08-25 17:31:45,466] {dagbag.py:320} ERROR - Failed to import: /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+Traceback (most recent call last):
+  File "/home/adrilucy/Documentos/airflow-alura/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py", line 7, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2024-08-25 17:31:45,466] {processor.py:653} WARNING - No viable dags retrieved from /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 17:31:45,486] {processor.py:161} INFO - Processing /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py took 0.028 seconds
+[2024-08-25 17:32:19,643] {processor.py:153} INFO - Started process (PID=156529) to work on /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 17:32:19,646] {processor.py:641} INFO - Processing file /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py for tasks to queue
+[2024-08-25 17:32:19,647] {logging_mixin.py:115} INFO - [2024-08-25 17:32:19,647] {dagbag.py:507} INFO - Filling up the DagBag from /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 17:32:19,661] {logging_mixin.py:115} INFO - [2024-08-25 17:32:19,660] {dagbag.py:320} ERROR - Failed to import: /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+Traceback (most recent call last):
+  File "/home/adrilucy/Documentos/airflow-alura/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py", line 7, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2024-08-25 17:32:19,661] {processor.py:653} WARNING - No viable dags retrieved from /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 17:32:19,685] {processor.py:161} INFO - Processing /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py took 0.048 seconds
+[2024-08-25 17:33:12,934] {processor.py:153} INFO - Started process (PID=157032) to work on /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 17:33:12,935] {processor.py:641} INFO - Processing file /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py for tasks to queue
+[2024-08-25 17:33:12,936] {logging_mixin.py:115} INFO - [2024-08-25 17:33:12,936] {dagbag.py:507} INFO - Filling up the DagBag from /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 17:33:13,237] {processor.py:651} INFO - DAG(s) dict_keys(['dados_climaticos']) retrieved from /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 17:33:13,260] {logging_mixin.py:115} INFO - [2024-08-25 17:33:13,260] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-08-25 17:33:13,272] {logging_mixin.py:115} INFO - [2024-08-25 17:33:13,272] {dag.py:2927} INFO - Setting next_dagrun for dados_climaticos to 2022-08-22T00:00:00+00:00, run_after=2022-08-29T00:00:00+00:00
+[2024-08-25 17:33:13,296] {processor.py:161} INFO - Processing /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py took 0.366 seconds
+[2024-08-25 17:34:19,103] {processor.py:153} INFO - Started process (PID=157791) to work on /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 17:34:19,109] {processor.py:641} INFO - Processing file /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py for tasks to queue
+[2024-08-25 17:34:19,110] {logging_mixin.py:115} INFO - [2024-08-25 17:34:19,110] {dagbag.py:507} INFO - Filling up the DagBag from /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 17:34:19,331] {processor.py:651} INFO - DAG(s) dict_keys(['dados_climaticos']) retrieved from /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 17:34:19,338] {logging_mixin.py:115} INFO - [2024-08-25 17:34:19,338] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-08-25 17:34:19,349] {logging_mixin.py:115} INFO - [2024-08-25 17:34:19,348] {dag.py:2927} INFO - Setting next_dagrun for dados_climaticos to 2022-11-14T00:00:00+00:00, run_after=2022-11-21T00:00:00+00:00
+[2024-08-25 17:34:19,373] {processor.py:161} INFO - Processing /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py took 0.272 seconds
+[2024-08-25 17:34:53,163] {processor.py:153} INFO - Started process (PID=158075) to work on /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 17:34:53,170] {processor.py:641} INFO - Processing file /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py for tasks to queue
+[2024-08-25 17:34:53,170] {logging_mixin.py:115} INFO - [2024-08-25 17:34:53,170] {dagbag.py:507} INFO - Filling up the DagBag from /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 17:34:53,397] {processor.py:651} INFO - DAG(s) dict_keys(['dados_climaticos']) retrieved from /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 17:34:53,403] {logging_mixin.py:115} INFO - [2024-08-25 17:34:53,403] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-08-25 17:34:53,412] {logging_mixin.py:115} INFO - [2024-08-25 17:34:53,412] {dag.py:2927} INFO - Setting next_dagrun for dados_climaticos to 2022-11-21T00:00:00+00:00, run_after=2022-11-28T00:00:00+00:00
+[2024-08-25 17:34:53,430] {processor.py:161} INFO - Processing /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py took 0.273 seconds
+[2024-08-25 17:35:24,139] {processor.py:153} INFO - Started process (PID=158315) to work on /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 17:35:24,145] {processor.py:641} INFO - Processing file /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py for tasks to queue
+[2024-08-25 17:35:24,146] {logging_mixin.py:115} INFO - [2024-08-25 17:35:24,146] {dagbag.py:507} INFO - Filling up the DagBag from /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 17:35:24,363] {processor.py:651} INFO - DAG(s) dict_keys(['dados_climaticos']) retrieved from /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 17:35:24,370] {logging_mixin.py:115} INFO - [2024-08-25 17:35:24,369] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-08-25 17:35:24,379] {logging_mixin.py:115} INFO - [2024-08-25 17:35:24,378] {dag.py:2927} INFO - Setting next_dagrun for dados_climaticos to 2022-11-21T00:00:00+00:00, run_after=2022-11-28T00:00:00+00:00
+[2024-08-25 17:35:24,397] {processor.py:161} INFO - Processing /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py took 0.260 seconds
+[2024-08-25 17:35:59,532] {processor.py:153} INFO - Started process (PID=158591) to work on /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 17:35:59,539] {processor.py:641} INFO - Processing file /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py for tasks to queue
+[2024-08-25 17:35:59,540] {logging_mixin.py:115} INFO - [2024-08-25 17:35:59,539] {dagbag.py:507} INFO - Filling up the DagBag from /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 17:35:59,759] {processor.py:651} INFO - DAG(s) dict_keys(['dados_climaticos']) retrieved from /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 17:35:59,766] {logging_mixin.py:115} INFO - [2024-08-25 17:35:59,766] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-08-25 17:35:59,776] {logging_mixin.py:115} INFO - [2024-08-25 17:35:59,776] {dag.py:2927} INFO - Setting next_dagrun for dados_climaticos to 2022-11-21T00:00:00+00:00, run_after=2022-11-28T00:00:00+00:00
+[2024-08-25 17:35:59,792] {processor.py:161} INFO - Processing /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py took 0.264 seconds
+[2024-08-25 17:36:29,952] {processor.py:153} INFO - Started process (PID=158834) to work on /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 17:36:29,959] {processor.py:641} INFO - Processing file /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py for tasks to queue
+[2024-08-25 17:36:29,960] {logging_mixin.py:115} INFO - [2024-08-25 17:36:29,960] {dagbag.py:507} INFO - Filling up the DagBag from /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 17:36:30,187] {processor.py:651} INFO - DAG(s) dict_keys(['dados_climaticos']) retrieved from /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 17:36:30,195] {logging_mixin.py:115} INFO - [2024-08-25 17:36:30,194] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-08-25 17:36:30,203] {logging_mixin.py:115} INFO - [2024-08-25 17:36:30,203] {dag.py:2927} INFO - Setting next_dagrun for dados_climaticos to 2022-11-21T00:00:00+00:00, run_after=2022-11-28T00:00:00+00:00
+[2024-08-25 17:36:30,224] {processor.py:161} INFO - Processing /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py took 0.277 seconds
+[2024-08-25 17:37:01,478] {processor.py:153} INFO - Started process (PID=159162) to work on /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 17:37:01,485] {processor.py:641} INFO - Processing file /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py for tasks to queue
+[2024-08-25 17:37:01,487] {logging_mixin.py:115} INFO - [2024-08-25 17:37:01,487] {dagbag.py:507} INFO - Filling up the DagBag from /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 17:37:01,793] {processor.py:651} INFO - DAG(s) dict_keys(['dados_climaticos']) retrieved from /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 17:37:01,802] {logging_mixin.py:115} INFO - [2024-08-25 17:37:01,802] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-08-25 17:37:01,823] {logging_mixin.py:115} INFO - [2024-08-25 17:37:01,823] {dag.py:2927} INFO - Setting next_dagrun for dados_climaticos to 2022-11-21T00:00:00+00:00, run_after=2022-11-28T00:00:00+00:00
+[2024-08-25 17:37:01,837] {processor.py:161} INFO - Processing /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py took 0.366 seconds
+[2024-08-25 17:37:37,405] {processor.py:153} INFO - Started process (PID=159447) to work on /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 17:37:37,413] {processor.py:641} INFO - Processing file /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py for tasks to queue
+[2024-08-25 17:37:37,414] {logging_mixin.py:115} INFO - [2024-08-25 17:37:37,413] {dagbag.py:507} INFO - Filling up the DagBag from /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 17:37:37,651] {processor.py:651} INFO - DAG(s) dict_keys(['dados_climaticos']) retrieved from /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 17:37:37,659] {logging_mixin.py:115} INFO - [2024-08-25 17:37:37,659] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-08-25 17:37:37,669] {logging_mixin.py:115} INFO - [2024-08-25 17:37:37,668] {dag.py:2927} INFO - Setting next_dagrun for dados_climaticos to 2022-11-21T00:00:00+00:00, run_after=2022-11-28T00:00:00+00:00
+[2024-08-25 17:37:37,687] {processor.py:161} INFO - Processing /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py took 0.287 seconds
+[2024-08-25 17:38:12,520] {processor.py:153} INFO - Started process (PID=159746) to work on /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 17:38:12,526] {processor.py:641} INFO - Processing file /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py for tasks to queue
+[2024-08-25 17:38:12,527] {logging_mixin.py:115} INFO - [2024-08-25 17:38:12,527] {dagbag.py:507} INFO - Filling up the DagBag from /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 17:38:12,797] {processor.py:651} INFO - DAG(s) dict_keys(['dados_climaticos']) retrieved from /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 17:38:12,804] {logging_mixin.py:115} INFO - [2024-08-25 17:38:12,804] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-08-25 17:38:12,812] {logging_mixin.py:115} INFO - [2024-08-25 17:38:12,812] {dag.py:2927} INFO - Setting next_dagrun for dados_climaticos to 2022-11-21T00:00:00+00:00, run_after=2022-11-28T00:00:00+00:00
+[2024-08-25 17:38:12,831] {processor.py:161} INFO - Processing /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py took 0.314 seconds
+[2024-08-25 17:38:46,002] {processor.py:153} INFO - Started process (PID=160005) to work on /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 17:38:46,008] {processor.py:641} INFO - Processing file /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py for tasks to queue
+[2024-08-25 17:38:46,009] {logging_mixin.py:115} INFO - [2024-08-25 17:38:46,009] {dagbag.py:507} INFO - Filling up the DagBag from /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 17:38:46,240] {processor.py:651} INFO - DAG(s) dict_keys(['dados_climaticos']) retrieved from /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 17:38:46,249] {logging_mixin.py:115} INFO - [2024-08-25 17:38:46,249] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-08-25 17:38:46,259] {logging_mixin.py:115} INFO - [2024-08-25 17:38:46,259] {dag.py:2927} INFO - Setting next_dagrun for dados_climaticos to 2022-11-21T00:00:00+00:00, run_after=2022-11-28T00:00:00+00:00
+[2024-08-25 17:38:46,277] {processor.py:161} INFO - Processing /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py took 0.280 seconds
+[2024-08-25 17:39:21,193] {processor.py:153} INFO - Started process (PID=160296) to work on /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 17:39:21,195] {processor.py:641} INFO - Processing file /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py for tasks to queue
+[2024-08-25 17:39:21,195] {logging_mixin.py:115} INFO - [2024-08-25 17:39:21,195] {dagbag.py:507} INFO - Filling up the DagBag from /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 17:39:21,433] {processor.py:651} INFO - DAG(s) dict_keys(['dados_climaticos']) retrieved from /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 17:39:21,441] {logging_mixin.py:115} INFO - [2024-08-25 17:39:21,441] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-08-25 17:39:21,452] {logging_mixin.py:115} INFO - [2024-08-25 17:39:21,452] {dag.py:2927} INFO - Setting next_dagrun for dados_climaticos to 2022-11-21T00:00:00+00:00, run_after=2022-11-28T00:00:00+00:00
+[2024-08-25 17:39:21,469] {processor.py:161} INFO - Processing /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py took 0.278 seconds
+[2024-08-25 17:39:53,038] {processor.py:153} INFO - Started process (PID=160546) to work on /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 17:39:53,039] {processor.py:641} INFO - Processing file /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py for tasks to queue
+[2024-08-25 17:39:53,039] {logging_mixin.py:115} INFO - [2024-08-25 17:39:53,039] {dagbag.py:507} INFO - Filling up the DagBag from /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 17:39:53,279] {processor.py:651} INFO - DAG(s) dict_keys(['dados_climaticos']) retrieved from /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 17:39:53,317] {logging_mixin.py:115} INFO - [2024-08-25 17:39:53,317] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-08-25 17:39:53,332] {logging_mixin.py:115} INFO - [2024-08-25 17:39:53,331] {dag.py:2927} INFO - Setting next_dagrun for dados_climaticos to 2022-11-21T00:00:00+00:00, run_after=2022-11-28T00:00:00+00:00
+[2024-08-25 17:39:53,353] {processor.py:161} INFO - Processing /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py took 0.317 seconds
+[2024-08-25 17:40:21,826] {processor.py:153} INFO - Started process (PID=160818) to work on /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 17:40:21,827] {processor.py:641} INFO - Processing file /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py for tasks to queue
+[2024-08-25 17:40:21,828] {logging_mixin.py:115} INFO - [2024-08-25 17:40:21,828] {dagbag.py:507} INFO - Filling up the DagBag from /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 17:40:22,073] {processor.py:651} INFO - DAG(s) dict_keys(['dados_climaticos']) retrieved from /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 17:40:22,114] {logging_mixin.py:115} INFO - [2024-08-25 17:40:22,113] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-08-25 17:40:22,121] {logging_mixin.py:115} INFO - [2024-08-25 17:40:22,120] {dag.py:2398} INFO - Creating ORM DAG for dados_climaticos
+[2024-08-25 17:40:22,132] {logging_mixin.py:115} INFO - [2024-08-25 17:40:22,132] {dag.py:2927} INFO - Setting next_dagrun for dados_climaticos to 2022-08-22T00:00:00+00:00, run_after=2022-08-29T00:00:00+00:00
+[2024-08-25 17:40:22,150] {processor.py:161} INFO - Processing /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py took 0.327 seconds
+[2024-08-25 17:40:57,681] {processor.py:153} INFO - Started process (PID=161131) to work on /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 17:40:57,683] {processor.py:641} INFO - Processing file /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py for tasks to queue
+[2024-08-25 17:40:57,683] {logging_mixin.py:115} INFO - [2024-08-25 17:40:57,683] {dagbag.py:507} INFO - Filling up the DagBag from /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 17:40:57,913] {processor.py:651} INFO - DAG(s) dict_keys(['dados_climaticos']) retrieved from /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 17:40:57,920] {logging_mixin.py:115} INFO - [2024-08-25 17:40:57,920] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-08-25 17:40:57,932] {logging_mixin.py:115} INFO - [2024-08-25 17:40:57,932] {dag.py:2927} INFO - Setting next_dagrun for dados_climaticos to 2022-08-22T00:00:00+00:00, run_after=2022-08-29T00:00:00+00:00
+[2024-08-25 17:40:57,949] {processor.py:161} INFO - Processing /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py took 0.272 seconds
+[2024-08-25 17:41:31,077] {processor.py:153} INFO - Started process (PID=161442) to work on /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 17:41:31,084] {processor.py:641} INFO - Processing file /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py for tasks to queue
+[2024-08-25 17:41:31,084] {logging_mixin.py:115} INFO - [2024-08-25 17:41:31,084] {dagbag.py:507} INFO - Filling up the DagBag from /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 17:41:31,335] {processor.py:651} INFO - DAG(s) dict_keys(['dados_climaticos']) retrieved from /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 17:41:31,345] {logging_mixin.py:115} INFO - [2024-08-25 17:41:31,345] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-08-25 17:41:31,356] {logging_mixin.py:115} INFO - [2024-08-25 17:41:31,356] {dag.py:2927} INFO - Setting next_dagrun for dados_climaticos to 2022-09-12T00:00:00+00:00, run_after=2022-09-19T00:00:00+00:00
+[2024-08-25 17:41:31,371] {processor.py:161} INFO - Processing /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py took 0.297 seconds
+[2024-08-25 17:42:06,183] {processor.py:153} INFO - Started process (PID=161853) to work on /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 17:42:06,184] {processor.py:641} INFO - Processing file /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py for tasks to queue
+[2024-08-25 17:42:06,185] {logging_mixin.py:115} INFO - [2024-08-25 17:42:06,185] {dagbag.py:507} INFO - Filling up the DagBag from /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 17:42:06,429] {processor.py:651} INFO - DAG(s) dict_keys(['dados_climaticos']) retrieved from /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 17:42:06,440] {logging_mixin.py:115} INFO - [2024-08-25 17:42:06,439] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-08-25 17:42:06,449] {logging_mixin.py:115} INFO - [2024-08-25 17:42:06,449] {dag.py:2927} INFO - Setting next_dagrun for dados_climaticos to 2022-11-07T00:00:00+00:00, run_after=2022-11-14T00:00:00+00:00
+[2024-08-25 17:42:06,468] {processor.py:161} INFO - Processing /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py took 0.286 seconds
+[2024-08-25 17:42:53,847] {processor.py:153} INFO - Started process (PID=162368) to work on /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 17:42:53,853] {processor.py:641} INFO - Processing file /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py for tasks to queue
+[2024-08-25 17:42:53,854] {logging_mixin.py:115} INFO - [2024-08-25 17:42:53,854] {dagbag.py:507} INFO - Filling up the DagBag from /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 17:42:54,073] {processor.py:651} INFO - DAG(s) dict_keys(['dados_climaticos']) retrieved from /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 17:42:54,095] {logging_mixin.py:115} INFO - [2024-08-25 17:42:54,095] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-08-25 17:42:54,103] {logging_mixin.py:115} INFO - [2024-08-25 17:42:54,103] {dag.py:2398} INFO - Creating ORM DAG for dados_climaticos
+[2024-08-25 17:42:54,126] {logging_mixin.py:115} INFO - [2024-08-25 17:42:54,126] {dag.py:2927} INFO - Setting next_dagrun for dados_climaticos to 2022-08-22T00:00:00+00:00, run_after=2022-08-29T00:00:00+00:00
+[2024-08-25 17:42:54,147] {processor.py:161} INFO - Processing /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py took 0.304 seconds
+[2024-08-25 17:43:26,551] {processor.py:153} INFO - Started process (PID=162659) to work on /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 17:43:26,552] {processor.py:641} INFO - Processing file /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py for tasks to queue
+[2024-08-25 17:43:26,552] {logging_mixin.py:115} INFO - [2024-08-25 17:43:26,552] {dagbag.py:507} INFO - Filling up the DagBag from /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 17:43:26,796] {processor.py:651} INFO - DAG(s) dict_keys(['dados_climaticos']) retrieved from /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 17:43:26,820] {logging_mixin.py:115} INFO - [2024-08-25 17:43:26,820] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-08-25 17:43:26,830] {logging_mixin.py:115} INFO - [2024-08-25 17:43:26,830] {dag.py:2927} INFO - Setting next_dagrun for dados_climaticos to 2024-07-01T00:00:00+00:00, run_after=2024-07-08T00:00:00+00:00
+[2024-08-25 17:43:26,850] {processor.py:161} INFO - Processing /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py took 0.302 seconds
+[2024-08-25 17:44:20,674] {processor.py:153} INFO - Started process (PID=163235) to work on /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 17:44:20,676] {processor.py:641} INFO - Processing file /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py for tasks to queue
+[2024-08-25 17:44:20,676] {logging_mixin.py:115} INFO - [2024-08-25 17:44:20,676] {dagbag.py:507} INFO - Filling up the DagBag from /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 17:44:20,905] {processor.py:651} INFO - DAG(s) dict_keys(['dados_climaticos']) retrieved from /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 17:44:20,912] {logging_mixin.py:115} INFO - [2024-08-25 17:44:20,912] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-08-25 17:44:20,922] {logging_mixin.py:115} INFO - [2024-08-25 17:44:20,922] {dag.py:2927} INFO - Setting next_dagrun for dados_climaticos to 2024-08-19T00:00:00+00:00, run_after=2024-08-26T00:00:00+00:00
+[2024-08-25 17:44:20,935] {processor.py:161} INFO - Processing /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py took 0.266 seconds
+[2024-08-25 17:44:56,700] {processor.py:153} INFO - Started process (PID=163518) to work on /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 17:44:56,702] {processor.py:641} INFO - Processing file /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py for tasks to queue
+[2024-08-25 17:44:56,703] {logging_mixin.py:115} INFO - [2024-08-25 17:44:56,703] {dagbag.py:507} INFO - Filling up the DagBag from /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 17:44:56,920] {processor.py:651} INFO - DAG(s) dict_keys(['dados_climaticos']) retrieved from /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 17:44:56,927] {logging_mixin.py:115} INFO - [2024-08-25 17:44:56,927] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-08-25 17:44:56,937] {logging_mixin.py:115} INFO - [2024-08-25 17:44:56,937] {dag.py:2927} INFO - Setting next_dagrun for dados_climaticos to 2024-08-19T00:00:00+00:00, run_after=2024-08-26T00:00:00+00:00
+[2024-08-25 17:44:56,954] {processor.py:161} INFO - Processing /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py took 0.261 seconds
+[2024-08-25 17:45:30,368] {processor.py:153} INFO - Started process (PID=163782) to work on /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 17:45:30,375] {processor.py:641} INFO - Processing file /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py for tasks to queue
+[2024-08-25 17:45:30,377] {logging_mixin.py:115} INFO - [2024-08-25 17:45:30,377] {dagbag.py:507} INFO - Filling up the DagBag from /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 17:45:30,591] {processor.py:651} INFO - DAG(s) dict_keys(['dados_climaticos']) retrieved from /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 17:45:30,599] {logging_mixin.py:115} INFO - [2024-08-25 17:45:30,598] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-08-25 17:45:30,607] {logging_mixin.py:115} INFO - [2024-08-25 17:45:30,607] {dag.py:2927} INFO - Setting next_dagrun for dados_climaticos to 2024-08-19T00:00:00+00:00, run_after=2024-08-26T00:00:00+00:00
+[2024-08-25 17:45:30,625] {processor.py:161} INFO - Processing /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py took 0.263 seconds
+[2024-08-25 17:46:01,515] {processor.py:153} INFO - Started process (PID=164024) to work on /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 17:46:01,524] {processor.py:641} INFO - Processing file /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py for tasks to queue
+[2024-08-25 17:46:01,524] {logging_mixin.py:115} INFO - [2024-08-25 17:46:01,524] {dagbag.py:507} INFO - Filling up the DagBag from /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 17:46:01,742] {processor.py:651} INFO - DAG(s) dict_keys(['dados_climaticos']) retrieved from /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 17:46:01,750] {logging_mixin.py:115} INFO - [2024-08-25 17:46:01,750] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-08-25 17:46:01,761] {logging_mixin.py:115} INFO - [2024-08-25 17:46:01,761] {dag.py:2927} INFO - Setting next_dagrun for dados_climaticos to 2024-08-19T00:00:00+00:00, run_after=2024-08-26T00:00:00+00:00
+[2024-08-25 17:46:01,781] {processor.py:161} INFO - Processing /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py took 0.271 seconds
+[2024-08-25 17:46:33,736] {processor.py:153} INFO - Started process (PID=164278) to work on /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 17:46:33,743] {processor.py:641} INFO - Processing file /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py for tasks to queue
+[2024-08-25 17:46:33,743] {logging_mixin.py:115} INFO - [2024-08-25 17:46:33,743] {dagbag.py:507} INFO - Filling up the DagBag from /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 17:46:33,957] {processor.py:651} INFO - DAG(s) dict_keys(['dados_climaticos']) retrieved from /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 17:46:33,964] {logging_mixin.py:115} INFO - [2024-08-25 17:46:33,964] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-08-25 17:46:33,974] {logging_mixin.py:115} INFO - [2024-08-25 17:46:33,974] {dag.py:2927} INFO - Setting next_dagrun for dados_climaticos to 2024-08-19T00:00:00+00:00, run_after=2024-08-26T00:00:00+00:00
+[2024-08-25 17:46:33,991] {processor.py:161} INFO - Processing /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py took 0.258 seconds
+[2024-08-25 17:47:11,910] {processor.py:153} INFO - Started process (PID=164577) to work on /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 17:47:11,917] {processor.py:641} INFO - Processing file /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py for tasks to queue
+[2024-08-25 17:47:11,918] {logging_mixin.py:115} INFO - [2024-08-25 17:47:11,918] {dagbag.py:507} INFO - Filling up the DagBag from /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 17:47:12,129] {processor.py:651} INFO - DAG(s) dict_keys(['dados_climaticos']) retrieved from /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 17:47:12,136] {logging_mixin.py:115} INFO - [2024-08-25 17:47:12,136] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-08-25 17:47:12,145] {logging_mixin.py:115} INFO - [2024-08-25 17:47:12,145] {dag.py:2927} INFO - Setting next_dagrun for dados_climaticos to 2024-08-19T00:00:00+00:00, run_after=2024-08-26T00:00:00+00:00
+[2024-08-25 17:47:12,162] {processor.py:161} INFO - Processing /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py took 0.253 seconds
+[2024-08-25 17:47:45,373] {processor.py:153} INFO - Started process (PID=164838) to work on /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 17:47:45,375] {processor.py:641} INFO - Processing file /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py for tasks to queue
+[2024-08-25 17:47:45,376] {logging_mixin.py:115} INFO - [2024-08-25 17:47:45,376] {dagbag.py:507} INFO - Filling up the DagBag from /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 17:47:45,596] {processor.py:651} INFO - DAG(s) dict_keys(['dados_climaticos']) retrieved from /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 17:47:45,604] {logging_mixin.py:115} INFO - [2024-08-25 17:47:45,604] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-08-25 17:47:45,614] {logging_mixin.py:115} INFO - [2024-08-25 17:47:45,614] {dag.py:2927} INFO - Setting next_dagrun for dados_climaticos to 2024-08-19T00:00:00+00:00, run_after=2024-08-26T00:00:00+00:00
+[2024-08-25 17:47:45,630] {processor.py:161} INFO - Processing /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py took 0.263 seconds
+[2024-08-25 17:48:15,939] {processor.py:153} INFO - Started process (PID=165077) to work on /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 17:48:15,940] {processor.py:641} INFO - Processing file /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py for tasks to queue
+[2024-08-25 17:48:15,941] {logging_mixin.py:115} INFO - [2024-08-25 17:48:15,941] {dagbag.py:507} INFO - Filling up the DagBag from /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 17:48:16,254] {processor.py:651} INFO - DAG(s) dict_keys(['dados_climaticos']) retrieved from /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 17:48:16,265] {logging_mixin.py:115} INFO - [2024-08-25 17:48:16,265] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-08-25 17:48:16,283] {logging_mixin.py:115} INFO - [2024-08-25 17:48:16,282] {dag.py:2927} INFO - Setting next_dagrun for dados_climaticos to 2024-08-19T00:00:00+00:00, run_after=2024-08-26T00:00:00+00:00
+[2024-08-25 17:48:16,297] {processor.py:161} INFO - Processing /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py took 0.361 seconds
+[2024-08-25 17:48:46,512] {processor.py:153} INFO - Started process (PID=165317) to work on /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 17:48:46,514] {processor.py:641} INFO - Processing file /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py for tasks to queue
+[2024-08-25 17:48:46,515] {logging_mixin.py:115} INFO - [2024-08-25 17:48:46,515] {dagbag.py:507} INFO - Filling up the DagBag from /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 17:48:46,811] {processor.py:651} INFO - DAG(s) dict_keys(['dados_climaticos']) retrieved from /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 17:48:46,821] {logging_mixin.py:115} INFO - [2024-08-25 17:48:46,821] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-08-25 17:48:46,837] {logging_mixin.py:115} INFO - [2024-08-25 17:48:46,837] {dag.py:2927} INFO - Setting next_dagrun for dados_climaticos to 2024-08-19T00:00:00+00:00, run_after=2024-08-26T00:00:00+00:00
+[2024-08-25 17:48:46,852] {processor.py:161} INFO - Processing /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py took 0.343 seconds
+[2024-08-25 17:49:21,754] {processor.py:153} INFO - Started process (PID=165592) to work on /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 17:49:21,761] {processor.py:641} INFO - Processing file /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py for tasks to queue
+[2024-08-25 17:49:21,762] {logging_mixin.py:115} INFO - [2024-08-25 17:49:21,762] {dagbag.py:507} INFO - Filling up the DagBag from /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 17:49:22,007] {processor.py:651} INFO - DAG(s) dict_keys(['dados_climaticos']) retrieved from /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 17:49:22,015] {logging_mixin.py:115} INFO - [2024-08-25 17:49:22,015] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-08-25 17:49:22,025] {logging_mixin.py:115} INFO - [2024-08-25 17:49:22,025] {dag.py:2927} INFO - Setting next_dagrun for dados_climaticos to 2024-08-19T00:00:00+00:00, run_after=2024-08-26T00:00:00+00:00
+[2024-08-25 17:49:22,037] {processor.py:161} INFO - Processing /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py took 0.286 seconds
+[2024-08-25 17:49:52,196] {processor.py:153} INFO - Started process (PID=165833) to work on /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 17:49:52,197] {processor.py:641} INFO - Processing file /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py for tasks to queue
+[2024-08-25 17:49:52,198] {logging_mixin.py:115} INFO - [2024-08-25 17:49:52,198] {dagbag.py:507} INFO - Filling up the DagBag from /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 17:49:52,415] {processor.py:651} INFO - DAG(s) dict_keys(['dados_climaticos']) retrieved from /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 17:49:52,421] {logging_mixin.py:115} INFO - [2024-08-25 17:49:52,421] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-08-25 17:49:52,430] {logging_mixin.py:115} INFO - [2024-08-25 17:49:52,430] {dag.py:2927} INFO - Setting next_dagrun for dados_climaticos to 2024-08-19T00:00:00+00:00, run_after=2024-08-26T00:00:00+00:00
+[2024-08-25 17:49:52,449] {processor.py:161} INFO - Processing /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py took 0.258 seconds
+[2024-08-25 17:50:27,079] {processor.py:153} INFO - Started process (PID=166108) to work on /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 17:50:27,086] {processor.py:641} INFO - Processing file /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py for tasks to queue
+[2024-08-25 17:50:27,086] {logging_mixin.py:115} INFO - [2024-08-25 17:50:27,086] {dagbag.py:507} INFO - Filling up the DagBag from /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 17:50:27,365] {processor.py:651} INFO - DAG(s) dict_keys(['dados_climaticos']) retrieved from /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 17:50:27,375] {logging_mixin.py:115} INFO - [2024-08-25 17:50:27,375] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-08-25 17:50:27,393] {logging_mixin.py:115} INFO - [2024-08-25 17:50:27,393] {dag.py:2927} INFO - Setting next_dagrun for dados_climaticos to 2024-08-19T00:00:00+00:00, run_after=2024-08-26T00:00:00+00:00
+[2024-08-25 17:50:27,409] {processor.py:161} INFO - Processing /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py took 0.335 seconds
+[2024-08-25 17:50:58,458] {processor.py:153} INFO - Started process (PID=166352) to work on /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 17:50:58,464] {processor.py:641} INFO - Processing file /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py for tasks to queue
+[2024-08-25 17:50:58,465] {logging_mixin.py:115} INFO - [2024-08-25 17:50:58,465] {dagbag.py:507} INFO - Filling up the DagBag from /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 17:50:58,685] {processor.py:651} INFO - DAG(s) dict_keys(['dados_climaticos']) retrieved from /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 17:50:58,693] {logging_mixin.py:115} INFO - [2024-08-25 17:50:58,693] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-08-25 17:50:58,703] {logging_mixin.py:115} INFO - [2024-08-25 17:50:58,703] {dag.py:2927} INFO - Setting next_dagrun for dados_climaticos to 2024-08-19T00:00:00+00:00, run_after=2024-08-26T00:00:00+00:00
+[2024-08-25 17:50:58,715] {processor.py:161} INFO - Processing /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py took 0.261 seconds
+[2024-08-25 17:51:33,287] {processor.py:153} INFO - Started process (PID=166626) to work on /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 17:51:33,293] {processor.py:641} INFO - Processing file /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py for tasks to queue
+[2024-08-25 17:51:33,294] {logging_mixin.py:115} INFO - [2024-08-25 17:51:33,294] {dagbag.py:507} INFO - Filling up the DagBag from /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 17:51:33,578] {processor.py:651} INFO - DAG(s) dict_keys(['dados_climaticos']) retrieved from /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 17:51:33,586] {logging_mixin.py:115} INFO - [2024-08-25 17:51:33,586] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-08-25 17:51:33,604] {logging_mixin.py:115} INFO - [2024-08-25 17:51:33,604] {dag.py:2927} INFO - Setting next_dagrun for dados_climaticos to 2024-08-19T00:00:00+00:00, run_after=2024-08-26T00:00:00+00:00
+[2024-08-25 17:51:33,627] {processor.py:161} INFO - Processing /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py took 0.343 seconds
+[2024-08-25 17:52:04,885] {processor.py:153} INFO - Started process (PID=166869) to work on /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 17:52:04,892] {processor.py:641} INFO - Processing file /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py for tasks to queue
+[2024-08-25 17:52:04,893] {logging_mixin.py:115} INFO - [2024-08-25 17:52:04,893] {dagbag.py:507} INFO - Filling up the DagBag from /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 17:52:05,100] {processor.py:651} INFO - DAG(s) dict_keys(['dados_climaticos']) retrieved from /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 17:52:05,107] {logging_mixin.py:115} INFO - [2024-08-25 17:52:05,107] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-08-25 17:52:05,116] {logging_mixin.py:115} INFO - [2024-08-25 17:52:05,115] {dag.py:2927} INFO - Setting next_dagrun for dados_climaticos to 2024-08-19T00:00:00+00:00, run_after=2024-08-26T00:00:00+00:00
+[2024-08-25 17:52:05,128] {processor.py:161} INFO - Processing /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py took 0.249 seconds
+[2024-08-25 17:52:41,064] {processor.py:153} INFO - Started process (PID=167154) to work on /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 17:52:41,066] {processor.py:641} INFO - Processing file /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py for tasks to queue
+[2024-08-25 17:52:41,067] {logging_mixin.py:115} INFO - [2024-08-25 17:52:41,067] {dagbag.py:507} INFO - Filling up the DagBag from /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 17:52:41,280] {processor.py:651} INFO - DAG(s) dict_keys(['dados_climaticos']) retrieved from /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 17:52:41,286] {logging_mixin.py:115} INFO - [2024-08-25 17:52:41,286] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-08-25 17:52:41,296] {logging_mixin.py:115} INFO - [2024-08-25 17:52:41,296] {dag.py:2927} INFO - Setting next_dagrun for dados_climaticos to 2024-08-19T00:00:00+00:00, run_after=2024-08-26T00:00:00+00:00
+[2024-08-25 17:52:41,314] {processor.py:161} INFO - Processing /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py took 0.253 seconds
+[2024-08-25 17:53:14,463] {processor.py:153} INFO - Started process (PID=167413) to work on /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 17:53:14,470] {processor.py:641} INFO - Processing file /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py for tasks to queue
+[2024-08-25 17:53:14,471] {logging_mixin.py:115} INFO - [2024-08-25 17:53:14,471] {dagbag.py:507} INFO - Filling up the DagBag from /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 17:53:14,701] {processor.py:651} INFO - DAG(s) dict_keys(['dados_climaticos']) retrieved from /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 17:53:14,709] {logging_mixin.py:115} INFO - [2024-08-25 17:53:14,709] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-08-25 17:53:14,718] {logging_mixin.py:115} INFO - [2024-08-25 17:53:14,718] {dag.py:2927} INFO - Setting next_dagrun for dados_climaticos to 2024-08-19T00:00:00+00:00, run_after=2024-08-26T00:00:00+00:00
+[2024-08-25 17:53:14,737] {processor.py:161} INFO - Processing /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py took 0.280 seconds
+[2024-08-25 17:53:50,812] {processor.py:153} INFO - Started process (PID=167699) to work on /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 17:53:50,820] {processor.py:641} INFO - Processing file /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py for tasks to queue
+[2024-08-25 17:53:50,820] {logging_mixin.py:115} INFO - [2024-08-25 17:53:50,820] {dagbag.py:507} INFO - Filling up the DagBag from /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 17:53:51,051] {processor.py:651} INFO - DAG(s) dict_keys(['dados_climaticos']) retrieved from /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 17:53:51,063] {logging_mixin.py:115} INFO - [2024-08-25 17:53:51,063] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-08-25 17:53:51,077] {logging_mixin.py:115} INFO - [2024-08-25 17:53:51,077] {dag.py:2927} INFO - Setting next_dagrun for dados_climaticos to 2024-08-19T00:00:00+00:00, run_after=2024-08-26T00:00:00+00:00
+[2024-08-25 17:53:51,093] {processor.py:161} INFO - Processing /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py took 0.285 seconds
+[2024-08-25 17:54:26,482] {processor.py:153} INFO - Started process (PID=167976) to work on /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 17:54:26,489] {processor.py:641} INFO - Processing file /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py for tasks to queue
+[2024-08-25 17:54:26,490] {logging_mixin.py:115} INFO - [2024-08-25 17:54:26,490] {dagbag.py:507} INFO - Filling up the DagBag from /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 17:54:26,711] {processor.py:651} INFO - DAG(s) dict_keys(['dados_climaticos']) retrieved from /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 17:54:26,719] {logging_mixin.py:115} INFO - [2024-08-25 17:54:26,718] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-08-25 17:54:26,728] {logging_mixin.py:115} INFO - [2024-08-25 17:54:26,728] {dag.py:2927} INFO - Setting next_dagrun for dados_climaticos to 2024-08-19T00:00:00+00:00, run_after=2024-08-26T00:00:00+00:00
+[2024-08-25 17:54:26,746] {processor.py:161} INFO - Processing /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py took 0.267 seconds
+[2024-08-25 17:54:59,640] {processor.py:153} INFO - Started process (PID=168239) to work on /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 17:54:59,646] {processor.py:641} INFO - Processing file /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py for tasks to queue
+[2024-08-25 17:54:59,646] {logging_mixin.py:115} INFO - [2024-08-25 17:54:59,646] {dagbag.py:507} INFO - Filling up the DagBag from /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 17:54:59,870] {processor.py:651} INFO - DAG(s) dict_keys(['dados_climaticos']) retrieved from /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 17:54:59,877] {logging_mixin.py:115} INFO - [2024-08-25 17:54:59,877] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-08-25 17:54:59,889] {logging_mixin.py:115} INFO - [2024-08-25 17:54:59,889] {dag.py:2927} INFO - Setting next_dagrun for dados_climaticos to 2024-08-19T00:00:00+00:00, run_after=2024-08-26T00:00:00+00:00
+[2024-08-25 17:54:59,906] {processor.py:161} INFO - Processing /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py took 0.269 seconds
+[2024-08-25 17:55:32,277] {processor.py:153} INFO - Started process (PID=168493) to work on /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 17:55:32,278] {processor.py:641} INFO - Processing file /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py for tasks to queue
+[2024-08-25 17:55:32,278] {logging_mixin.py:115} INFO - [2024-08-25 17:55:32,278] {dagbag.py:507} INFO - Filling up the DagBag from /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 17:55:32,492] {processor.py:651} INFO - DAG(s) dict_keys(['dados_climaticos']) retrieved from /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 17:55:32,500] {logging_mixin.py:115} INFO - [2024-08-25 17:55:32,500] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-08-25 17:55:32,509] {logging_mixin.py:115} INFO - [2024-08-25 17:55:32,509] {dag.py:2927} INFO - Setting next_dagrun for dados_climaticos to 2024-08-19T00:00:00+00:00, run_after=2024-08-26T00:00:00+00:00
+[2024-08-25 17:55:32,521] {processor.py:161} INFO - Processing /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py took 0.245 seconds
+[2024-08-25 17:56:06,805] {processor.py:153} INFO - Started process (PID=168762) to work on /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 17:56:06,807] {processor.py:641} INFO - Processing file /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py for tasks to queue
+[2024-08-25 17:56:06,807] {logging_mixin.py:115} INFO - [2024-08-25 17:56:06,807] {dagbag.py:507} INFO - Filling up the DagBag from /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 17:56:07,026] {processor.py:651} INFO - DAG(s) dict_keys(['dados_climaticos']) retrieved from /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 17:56:07,034] {logging_mixin.py:115} INFO - [2024-08-25 17:56:07,034] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-08-25 17:56:07,043] {logging_mixin.py:115} INFO - [2024-08-25 17:56:07,043] {dag.py:2927} INFO - Setting next_dagrun for dados_climaticos to 2024-08-19T00:00:00+00:00, run_after=2024-08-26T00:00:00+00:00
+[2024-08-25 17:56:07,063] {processor.py:161} INFO - Processing /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py took 0.264 seconds
+[2024-08-25 17:56:41,632] {processor.py:153} INFO - Started process (PID=169033) to work on /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 17:56:41,639] {processor.py:641} INFO - Processing file /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py for tasks to queue
+[2024-08-25 17:56:41,639] {logging_mixin.py:115} INFO - [2024-08-25 17:56:41,639] {dagbag.py:507} INFO - Filling up the DagBag from /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 17:56:41,856] {processor.py:651} INFO - DAG(s) dict_keys(['dados_climaticos']) retrieved from /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 17:56:41,864] {logging_mixin.py:115} INFO - [2024-08-25 17:56:41,864] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-08-25 17:56:41,873] {logging_mixin.py:115} INFO - [2024-08-25 17:56:41,873] {dag.py:2927} INFO - Setting next_dagrun for dados_climaticos to 2024-08-19T00:00:00+00:00, run_after=2024-08-26T00:00:00+00:00
+[2024-08-25 17:56:41,891] {processor.py:161} INFO - Processing /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py took 0.264 seconds
+[2024-08-25 17:57:13,633] {processor.py:153} INFO - Started process (PID=169287) to work on /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 17:57:13,635] {processor.py:641} INFO - Processing file /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py for tasks to queue
+[2024-08-25 17:57:13,636] {logging_mixin.py:115} INFO - [2024-08-25 17:57:13,636] {dagbag.py:507} INFO - Filling up the DagBag from /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 17:57:13,844] {processor.py:651} INFO - DAG(s) dict_keys(['dados_climaticos']) retrieved from /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 17:57:13,850] {logging_mixin.py:115} INFO - [2024-08-25 17:57:13,850] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-08-25 17:57:13,859] {logging_mixin.py:115} INFO - [2024-08-25 17:57:13,859] {dag.py:2927} INFO - Setting next_dagrun for dados_climaticos to 2024-08-19T00:00:00+00:00, run_after=2024-08-26T00:00:00+00:00
+[2024-08-25 17:57:13,876] {processor.py:161} INFO - Processing /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py took 0.249 seconds
+[2024-08-25 17:57:45,397] {processor.py:153} INFO - Started process (PID=169533) to work on /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 17:57:45,398] {processor.py:641} INFO - Processing file /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py for tasks to queue
+[2024-08-25 17:57:45,398] {logging_mixin.py:115} INFO - [2024-08-25 17:57:45,398] {dagbag.py:507} INFO - Filling up the DagBag from /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 17:57:45,681] {processor.py:651} INFO - DAG(s) dict_keys(['dados_climaticos']) retrieved from /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 17:57:45,689] {logging_mixin.py:115} INFO - [2024-08-25 17:57:45,689] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-08-25 17:57:45,700] {logging_mixin.py:115} INFO - [2024-08-25 17:57:45,700] {dag.py:2927} INFO - Setting next_dagrun for dados_climaticos to 2024-08-19T00:00:00+00:00, run_after=2024-08-26T00:00:00+00:00
+[2024-08-25 17:57:45,717] {processor.py:161} INFO - Processing /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py took 0.323 seconds
+[2024-08-25 17:58:20,367] {processor.py:153} INFO - Started process (PID=169805) to work on /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 17:58:20,369] {processor.py:641} INFO - Processing file /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py for tasks to queue
+[2024-08-25 17:58:20,369] {logging_mixin.py:115} INFO - [2024-08-25 17:58:20,369] {dagbag.py:507} INFO - Filling up the DagBag from /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 17:58:20,590] {processor.py:651} INFO - DAG(s) dict_keys(['dados_climaticos']) retrieved from /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 17:58:20,597] {logging_mixin.py:115} INFO - [2024-08-25 17:58:20,597] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-08-25 17:58:20,606] {logging_mixin.py:115} INFO - [2024-08-25 17:58:20,606] {dag.py:2927} INFO - Setting next_dagrun for dados_climaticos to 2024-08-19T00:00:00+00:00, run_after=2024-08-26T00:00:00+00:00
+[2024-08-25 17:58:20,624] {processor.py:161} INFO - Processing /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py took 0.261 seconds
+[2024-08-25 17:58:53,023] {processor.py:153} INFO - Started process (PID=170063) to work on /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 17:58:53,024] {processor.py:641} INFO - Processing file /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py for tasks to queue
+[2024-08-25 17:58:53,025] {logging_mixin.py:115} INFO - [2024-08-25 17:58:53,025] {dagbag.py:507} INFO - Filling up the DagBag from /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 17:58:53,260] {processor.py:651} INFO - DAG(s) dict_keys(['dados_climaticos']) retrieved from /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 17:58:53,267] {logging_mixin.py:115} INFO - [2024-08-25 17:58:53,267] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-08-25 17:58:53,278] {logging_mixin.py:115} INFO - [2024-08-25 17:58:53,278] {dag.py:2927} INFO - Setting next_dagrun for dados_climaticos to 2024-08-19T00:00:00+00:00, run_after=2024-08-26T00:00:00+00:00
+[2024-08-25 17:58:53,296] {processor.py:161} INFO - Processing /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py took 0.278 seconds
+[2024-08-25 17:59:27,924] {processor.py:153} INFO - Started process (PID=170335) to work on /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 17:59:27,926] {processor.py:641} INFO - Processing file /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py for tasks to queue
+[2024-08-25 17:59:27,927] {logging_mixin.py:115} INFO - [2024-08-25 17:59:27,927] {dagbag.py:507} INFO - Filling up the DagBag from /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 17:59:28,161] {processor.py:651} INFO - DAG(s) dict_keys(['dados_climaticos']) retrieved from /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 17:59:28,170] {logging_mixin.py:115} INFO - [2024-08-25 17:59:28,169] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-08-25 17:59:28,179] {logging_mixin.py:115} INFO - [2024-08-25 17:59:28,179] {dag.py:2927} INFO - Setting next_dagrun for dados_climaticos to 2024-08-19T00:00:00+00:00, run_after=2024-08-26T00:00:00+00:00
+[2024-08-25 17:59:28,200] {processor.py:161} INFO - Processing /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py took 0.278 seconds
+[2024-08-25 18:00:05,288] {processor.py:153} INFO - Started process (PID=170630) to work on /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 18:00:05,289] {processor.py:641} INFO - Processing file /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py for tasks to queue
+[2024-08-25 18:00:05,290] {logging_mixin.py:115} INFO - [2024-08-25 18:00:05,289] {dagbag.py:507} INFO - Filling up the DagBag from /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 18:00:05,517] {processor.py:651} INFO - DAG(s) dict_keys(['dados_climaticos']) retrieved from /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 18:00:05,524] {logging_mixin.py:115} INFO - [2024-08-25 18:00:05,524] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-08-25 18:00:05,535] {logging_mixin.py:115} INFO - [2024-08-25 18:00:05,535] {dag.py:2927} INFO - Setting next_dagrun for dados_climaticos to 2024-08-19T00:00:00+00:00, run_after=2024-08-26T00:00:00+00:00
+[2024-08-25 18:00:05,553] {processor.py:161} INFO - Processing /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py took 0.267 seconds
+[2024-08-25 18:00:36,365] {processor.py:153} INFO - Started process (PID=170875) to work on /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 18:00:36,372] {processor.py:641} INFO - Processing file /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py for tasks to queue
+[2024-08-25 18:00:36,372] {logging_mixin.py:115} INFO - [2024-08-25 18:00:36,372] {dagbag.py:507} INFO - Filling up the DagBag from /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 18:00:36,603] {processor.py:651} INFO - DAG(s) dict_keys(['dados_climaticos']) retrieved from /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 18:00:36,610] {logging_mixin.py:115} INFO - [2024-08-25 18:00:36,610] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-08-25 18:00:36,620] {logging_mixin.py:115} INFO - [2024-08-25 18:00:36,620] {dag.py:2927} INFO - Setting next_dagrun for dados_climaticos to 2024-08-19T00:00:00+00:00, run_after=2024-08-26T00:00:00+00:00
+[2024-08-25 18:00:36,638] {processor.py:161} INFO - Processing /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py took 0.279 seconds
+[2024-08-25 18:01:07,481] {processor.py:153} INFO - Started process (PID=171119) to work on /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 18:01:07,481] {processor.py:641} INFO - Processing file /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py for tasks to queue
+[2024-08-25 18:01:07,481] {logging_mixin.py:115} INFO - [2024-08-25 18:01:07,481] {dagbag.py:507} INFO - Filling up the DagBag from /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 18:01:07,714] {processor.py:651} INFO - DAG(s) dict_keys(['dados_climaticos']) retrieved from /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 18:01:07,721] {logging_mixin.py:115} INFO - [2024-08-25 18:01:07,721] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-08-25 18:01:07,732] {logging_mixin.py:115} INFO - [2024-08-25 18:01:07,732] {dag.py:2927} INFO - Setting next_dagrun for dados_climaticos to 2024-08-19T00:00:00+00:00, run_after=2024-08-26T00:00:00+00:00
+[2024-08-25 18:01:07,750] {processor.py:161} INFO - Processing /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py took 0.273 seconds
+[2024-08-25 18:01:39,727] {processor.py:153} INFO - Started process (PID=171373) to work on /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 18:01:39,735] {processor.py:641} INFO - Processing file /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py for tasks to queue
+[2024-08-25 18:01:39,735] {logging_mixin.py:115} INFO - [2024-08-25 18:01:39,735] {dagbag.py:507} INFO - Filling up the DagBag from /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 18:01:39,966] {processor.py:651} INFO - DAG(s) dict_keys(['dados_climaticos']) retrieved from /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 18:01:39,973] {logging_mixin.py:115} INFO - [2024-08-25 18:01:39,973] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-08-25 18:01:39,984] {logging_mixin.py:115} INFO - [2024-08-25 18:01:39,984] {dag.py:2927} INFO - Setting next_dagrun for dados_climaticos to 2024-08-19T00:00:00+00:00, run_after=2024-08-26T00:00:00+00:00
+[2024-08-25 18:01:40,002] {processor.py:161} INFO - Processing /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py took 0.280 seconds
+[2024-08-25 18:02:14,619] {processor.py:153} INFO - Started process (PID=171644) to work on /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 18:02:14,626] {processor.py:641} INFO - Processing file /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py for tasks to queue
+[2024-08-25 18:02:14,627] {logging_mixin.py:115} INFO - [2024-08-25 18:02:14,626] {dagbag.py:507} INFO - Filling up the DagBag from /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 18:02:14,856] {processor.py:651} INFO - DAG(s) dict_keys(['dados_climaticos']) retrieved from /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 18:02:14,864] {logging_mixin.py:115} INFO - [2024-08-25 18:02:14,863] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-08-25 18:02:14,873] {logging_mixin.py:115} INFO - [2024-08-25 18:02:14,873] {dag.py:2927} INFO - Setting next_dagrun for dados_climaticos to 2024-08-19T00:00:00+00:00, run_after=2024-08-26T00:00:00+00:00
+[2024-08-25 18:02:14,890] {processor.py:161} INFO - Processing /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py took 0.272 seconds
+[2024-08-25 18:02:49,273] {processor.py:153} INFO - Started process (PID=171913) to work on /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 18:02:49,280] {processor.py:641} INFO - Processing file /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py for tasks to queue
+[2024-08-25 18:02:49,281] {logging_mixin.py:115} INFO - [2024-08-25 18:02:49,281] {dagbag.py:507} INFO - Filling up the DagBag from /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 18:02:49,518] {processor.py:651} INFO - DAG(s) dict_keys(['dados_climaticos']) retrieved from /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 18:02:49,526] {logging_mixin.py:115} INFO - [2024-08-25 18:02:49,526] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-08-25 18:02:49,536] {logging_mixin.py:115} INFO - [2024-08-25 18:02:49,536] {dag.py:2927} INFO - Setting next_dagrun for dados_climaticos to 2024-08-19T00:00:00+00:00, run_after=2024-08-26T00:00:00+00:00
+[2024-08-25 18:02:49,553] {processor.py:161} INFO - Processing /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py took 0.286 seconds
+[2024-08-25 18:03:20,799] {processor.py:153} INFO - Started process (PID=172162) to work on /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 18:03:20,805] {processor.py:641} INFO - Processing file /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py for tasks to queue
+[2024-08-25 18:03:20,806] {logging_mixin.py:115} INFO - [2024-08-25 18:03:20,806] {dagbag.py:507} INFO - Filling up the DagBag from /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 18:03:21,038] {processor.py:651} INFO - DAG(s) dict_keys(['dados_climaticos']) retrieved from /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 18:03:21,046] {logging_mixin.py:115} INFO - [2024-08-25 18:03:21,046] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-08-25 18:03:21,058] {logging_mixin.py:115} INFO - [2024-08-25 18:03:21,058] {dag.py:2927} INFO - Setting next_dagrun for dados_climaticos to 2024-08-19T00:00:00+00:00, run_after=2024-08-26T00:00:00+00:00
+[2024-08-25 18:03:21,077] {processor.py:161} INFO - Processing /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py took 0.282 seconds
+[2024-08-25 18:03:54,845] {processor.py:153} INFO - Started process (PID=172427) to work on /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 18:03:54,852] {processor.py:641} INFO - Processing file /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py for tasks to queue
+[2024-08-25 18:03:54,853] {logging_mixin.py:115} INFO - [2024-08-25 18:03:54,852] {dagbag.py:507} INFO - Filling up the DagBag from /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 18:03:55,073] {processor.py:651} INFO - DAG(s) dict_keys(['dados_climaticos']) retrieved from /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 18:03:55,079] {logging_mixin.py:115} INFO - [2024-08-25 18:03:55,079] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-08-25 18:03:55,090] {logging_mixin.py:115} INFO - [2024-08-25 18:03:55,090] {dag.py:2927} INFO - Setting next_dagrun for dados_climaticos to 2024-08-19T00:00:00+00:00, run_after=2024-08-26T00:00:00+00:00
+[2024-08-25 18:03:55,103] {processor.py:161} INFO - Processing /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py took 0.262 seconds
+[2024-08-25 18:04:29,431] {processor.py:153} INFO - Started process (PID=172697) to work on /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 18:04:29,438] {processor.py:641} INFO - Processing file /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py for tasks to queue
+[2024-08-25 18:04:29,438] {logging_mixin.py:115} INFO - [2024-08-25 18:04:29,438] {dagbag.py:507} INFO - Filling up the DagBag from /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 18:04:29,666] {processor.py:651} INFO - DAG(s) dict_keys(['dados_climaticos']) retrieved from /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 18:04:29,674] {logging_mixin.py:115} INFO - [2024-08-25 18:04:29,674] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-08-25 18:04:29,683] {logging_mixin.py:115} INFO - [2024-08-25 18:04:29,683] {dag.py:2927} INFO - Setting next_dagrun for dados_climaticos to 2024-08-19T00:00:00+00:00, run_after=2024-08-26T00:00:00+00:00
+[2024-08-25 18:04:29,703] {processor.py:161} INFO - Processing /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py took 0.276 seconds
+[2024-08-25 18:05:00,024] {processor.py:153} INFO - Started process (PID=172936) to work on /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 18:05:00,031] {processor.py:641} INFO - Processing file /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py for tasks to queue
+[2024-08-25 18:05:00,031] {logging_mixin.py:115} INFO - [2024-08-25 18:05:00,031] {dagbag.py:507} INFO - Filling up the DagBag from /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 18:05:00,258] {processor.py:651} INFO - DAG(s) dict_keys(['dados_climaticos']) retrieved from /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 18:05:00,265] {logging_mixin.py:115} INFO - [2024-08-25 18:05:00,265] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-08-25 18:05:00,276] {logging_mixin.py:115} INFO - [2024-08-25 18:05:00,276] {dag.py:2927} INFO - Setting next_dagrun for dados_climaticos to 2024-08-19T00:00:00+00:00, run_after=2024-08-26T00:00:00+00:00
+[2024-08-25 18:05:00,293] {processor.py:161} INFO - Processing /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py took 0.271 seconds
+[2024-08-25 18:05:32,910] {processor.py:153} INFO - Started process (PID=173194) to work on /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 18:05:32,916] {processor.py:641} INFO - Processing file /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py for tasks to queue
+[2024-08-25 18:05:32,917] {logging_mixin.py:115} INFO - [2024-08-25 18:05:32,917] {dagbag.py:507} INFO - Filling up the DagBag from /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 18:05:33,138] {processor.py:651} INFO - DAG(s) dict_keys(['dados_climaticos']) retrieved from /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 18:05:33,145] {logging_mixin.py:115} INFO - [2024-08-25 18:05:33,145] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-08-25 18:05:33,156] {logging_mixin.py:115} INFO - [2024-08-25 18:05:33,156] {dag.py:2927} INFO - Setting next_dagrun for dados_climaticos to 2024-08-19T00:00:00+00:00, run_after=2024-08-26T00:00:00+00:00
+[2024-08-25 18:05:33,174] {processor.py:161} INFO - Processing /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py took 0.269 seconds
+[2024-08-25 18:06:07,439] {processor.py:153} INFO - Started process (PID=173466) to work on /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 18:06:07,446] {processor.py:641} INFO - Processing file /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py for tasks to queue
+[2024-08-25 18:06:07,447] {logging_mixin.py:115} INFO - [2024-08-25 18:06:07,447] {dagbag.py:507} INFO - Filling up the DagBag from /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 18:06:07,673] {processor.py:651} INFO - DAG(s) dict_keys(['dados_climaticos']) retrieved from /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 18:06:07,681] {logging_mixin.py:115} INFO - [2024-08-25 18:06:07,681] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-08-25 18:06:07,690] {logging_mixin.py:115} INFO - [2024-08-25 18:06:07,690] {dag.py:2927} INFO - Setting next_dagrun for dados_climaticos to 2024-08-19T00:00:00+00:00, run_after=2024-08-26T00:00:00+00:00
+[2024-08-25 18:06:07,708] {processor.py:161} INFO - Processing /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py took 0.275 seconds
+[2024-08-25 18:06:42,330] {processor.py:153} INFO - Started process (PID=173742) to work on /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 18:06:42,337] {processor.py:641} INFO - Processing file /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py for tasks to queue
+[2024-08-25 18:06:42,338] {logging_mixin.py:115} INFO - [2024-08-25 18:06:42,338] {dagbag.py:507} INFO - Filling up the DagBag from /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 18:06:42,559] {processor.py:651} INFO - DAG(s) dict_keys(['dados_climaticos']) retrieved from /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 18:06:42,567] {logging_mixin.py:115} INFO - [2024-08-25 18:06:42,567] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-08-25 18:06:42,576] {logging_mixin.py:115} INFO - [2024-08-25 18:06:42,576] {dag.py:2927} INFO - Setting next_dagrun for dados_climaticos to 2024-08-19T00:00:00+00:00, run_after=2024-08-26T00:00:00+00:00
+[2024-08-25 18:06:42,594] {processor.py:161} INFO - Processing /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py took 0.271 seconds
+[2024-08-25 18:07:12,955] {processor.py:153} INFO - Started process (PID=173984) to work on /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 18:07:12,962] {processor.py:641} INFO - Processing file /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py for tasks to queue
+[2024-08-25 18:07:12,963] {logging_mixin.py:115} INFO - [2024-08-25 18:07:12,963] {dagbag.py:507} INFO - Filling up the DagBag from /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 18:07:13,186] {processor.py:651} INFO - DAG(s) dict_keys(['dados_climaticos']) retrieved from /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 18:07:13,193] {logging_mixin.py:115} INFO - [2024-08-25 18:07:13,192] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-08-25 18:07:13,203] {logging_mixin.py:115} INFO - [2024-08-25 18:07:13,203] {dag.py:2927} INFO - Setting next_dagrun for dados_climaticos to 2024-08-19T00:00:00+00:00, run_after=2024-08-26T00:00:00+00:00
+[2024-08-25 18:07:13,221] {processor.py:161} INFO - Processing /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py took 0.271 seconds
+[2024-08-25 18:07:48,822] {processor.py:153} INFO - Started process (PID=174261) to work on /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 18:07:48,823] {processor.py:641} INFO - Processing file /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py for tasks to queue
+[2024-08-25 18:07:48,824] {logging_mixin.py:115} INFO - [2024-08-25 18:07:48,824] {dagbag.py:507} INFO - Filling up the DagBag from /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 18:07:49,050] {processor.py:651} INFO - DAG(s) dict_keys(['dados_climaticos']) retrieved from /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 18:07:49,058] {logging_mixin.py:115} INFO - [2024-08-25 18:07:49,058] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-08-25 18:07:49,068] {logging_mixin.py:115} INFO - [2024-08-25 18:07:49,067] {dag.py:2927} INFO - Setting next_dagrun for dados_climaticos to 2024-08-19T00:00:00+00:00, run_after=2024-08-26T00:00:00+00:00
+[2024-08-25 18:07:49,087] {processor.py:161} INFO - Processing /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py took 0.269 seconds
+[2024-08-25 18:08:21,341] {processor.py:153} INFO - Started process (PID=174517) to work on /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 18:08:21,343] {processor.py:641} INFO - Processing file /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py for tasks to queue
+[2024-08-25 18:08:21,344] {logging_mixin.py:115} INFO - [2024-08-25 18:08:21,343] {dagbag.py:507} INFO - Filling up the DagBag from /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 18:08:21,581] {processor.py:651} INFO - DAG(s) dict_keys(['dados_climaticos']) retrieved from /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 18:08:21,587] {logging_mixin.py:115} INFO - [2024-08-25 18:08:21,587] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-08-25 18:08:21,598] {logging_mixin.py:115} INFO - [2024-08-25 18:08:21,598] {dag.py:2927} INFO - Setting next_dagrun for dados_climaticos to 2024-08-19T00:00:00+00:00, run_after=2024-08-26T00:00:00+00:00
+[2024-08-25 18:08:21,611] {processor.py:161} INFO - Processing /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py took 0.273 seconds
+[2024-08-25 18:08:56,228] {processor.py:153} INFO - Started process (PID=174790) to work on /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 18:08:56,234] {processor.py:641} INFO - Processing file /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py for tasks to queue
+[2024-08-25 18:08:56,234] {logging_mixin.py:115} INFO - [2024-08-25 18:08:56,234] {dagbag.py:507} INFO - Filling up the DagBag from /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 18:08:56,491] {processor.py:651} INFO - DAG(s) dict_keys(['dados_climaticos']) retrieved from /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 18:08:56,499] {logging_mixin.py:115} INFO - [2024-08-25 18:08:56,498] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-08-25 18:08:56,508] {logging_mixin.py:115} INFO - [2024-08-25 18:08:56,508] {dag.py:2927} INFO - Setting next_dagrun for dados_climaticos to 2024-08-19T00:00:00+00:00, run_after=2024-08-26T00:00:00+00:00
+[2024-08-25 18:08:56,526] {processor.py:161} INFO - Processing /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py took 0.301 seconds
+[2024-08-25 18:09:30,007] {processor.py:153} INFO - Started process (PID=175058) to work on /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 18:09:30,014] {processor.py:641} INFO - Processing file /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py for tasks to queue
+[2024-08-25 18:09:30,014] {logging_mixin.py:115} INFO - [2024-08-25 18:09:30,014] {dagbag.py:507} INFO - Filling up the DagBag from /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 18:09:30,239] {processor.py:651} INFO - DAG(s) dict_keys(['dados_climaticos']) retrieved from /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 18:09:30,246] {logging_mixin.py:115} INFO - [2024-08-25 18:09:30,246] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-08-25 18:09:30,256] {logging_mixin.py:115} INFO - [2024-08-25 18:09:30,256] {dag.py:2927} INFO - Setting next_dagrun for dados_climaticos to 2024-08-19T00:00:00+00:00, run_after=2024-08-26T00:00:00+00:00
+[2024-08-25 18:09:30,275] {processor.py:161} INFO - Processing /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py took 0.272 seconds
+[2024-08-25 18:10:05,111] {processor.py:153} INFO - Started process (PID=175333) to work on /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 18:10:05,112] {processor.py:641} INFO - Processing file /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py for tasks to queue
+[2024-08-25 18:10:05,112] {logging_mixin.py:115} INFO - [2024-08-25 18:10:05,112] {dagbag.py:507} INFO - Filling up the DagBag from /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 18:10:05,327] {processor.py:651} INFO - DAG(s) dict_keys(['dados_climaticos']) retrieved from /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 18:10:05,334] {logging_mixin.py:115} INFO - [2024-08-25 18:10:05,334] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-08-25 18:10:05,344] {logging_mixin.py:115} INFO - [2024-08-25 18:10:05,344] {dag.py:2927} INFO - Setting next_dagrun for dados_climaticos to 2024-08-19T00:00:00+00:00, run_after=2024-08-26T00:00:00+00:00
+[2024-08-25 18:10:05,362] {processor.py:161} INFO - Processing /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py took 0.253 seconds
+[2024-08-25 18:10:38,869] {processor.py:153} INFO - Started process (PID=175593) to work on /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 18:10:38,876] {processor.py:641} INFO - Processing file /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py for tasks to queue
+[2024-08-25 18:10:38,877] {logging_mixin.py:115} INFO - [2024-08-25 18:10:38,877] {dagbag.py:507} INFO - Filling up the DagBag from /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 18:10:39,133] {processor.py:651} INFO - DAG(s) dict_keys(['dados_climaticos']) retrieved from /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 18:10:39,142] {logging_mixin.py:115} INFO - [2024-08-25 18:10:39,142] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-08-25 18:10:39,153] {logging_mixin.py:115} INFO - [2024-08-25 18:10:39,153] {dag.py:2927} INFO - Setting next_dagrun for dados_climaticos to 2024-08-19T00:00:00+00:00, run_after=2024-08-26T00:00:00+00:00
+[2024-08-25 18:10:39,163] {processor.py:161} INFO - Processing /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py took 0.300 seconds
+[2024-08-25 18:11:10,432] {processor.py:153} INFO - Started process (PID=175839) to work on /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 18:11:10,439] {processor.py:641} INFO - Processing file /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py for tasks to queue
+[2024-08-25 18:11:10,440] {logging_mixin.py:115} INFO - [2024-08-25 18:11:10,440] {dagbag.py:507} INFO - Filling up the DagBag from /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 18:11:10,651] {processor.py:651} INFO - DAG(s) dict_keys(['dados_climaticos']) retrieved from /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 18:11:10,658] {logging_mixin.py:115} INFO - [2024-08-25 18:11:10,658] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-08-25 18:11:10,666] {logging_mixin.py:115} INFO - [2024-08-25 18:11:10,666] {dag.py:2927} INFO - Setting next_dagrun for dados_climaticos to 2024-08-19T00:00:00+00:00, run_after=2024-08-26T00:00:00+00:00
+[2024-08-25 18:11:10,684] {processor.py:161} INFO - Processing /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py took 0.257 seconds
+[2024-08-25 18:11:43,666] {processor.py:153} INFO - Started process (PID=176099) to work on /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 18:11:43,673] {processor.py:641} INFO - Processing file /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py for tasks to queue
+[2024-08-25 18:11:43,674] {logging_mixin.py:115} INFO - [2024-08-25 18:11:43,674] {dagbag.py:507} INFO - Filling up the DagBag from /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 18:11:43,879] {processor.py:651} INFO - DAG(s) dict_keys(['dados_climaticos']) retrieved from /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 18:11:43,886] {logging_mixin.py:115} INFO - [2024-08-25 18:11:43,885] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-08-25 18:11:43,894] {logging_mixin.py:115} INFO - [2024-08-25 18:11:43,894] {dag.py:2927} INFO - Setting next_dagrun for dados_climaticos to 2024-08-19T00:00:00+00:00, run_after=2024-08-26T00:00:00+00:00
+[2024-08-25 18:11:43,913] {processor.py:161} INFO - Processing /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py took 0.249 seconds
+[2024-08-25 18:12:15,539] {processor.py:153} INFO - Started process (PID=176350) to work on /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 18:12:15,541] {processor.py:641} INFO - Processing file /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py for tasks to queue
+[2024-08-25 18:12:15,542] {logging_mixin.py:115} INFO - [2024-08-25 18:12:15,542] {dagbag.py:507} INFO - Filling up the DagBag from /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 18:12:15,757] {processor.py:651} INFO - DAG(s) dict_keys(['dados_climaticos']) retrieved from /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 18:12:15,764] {logging_mixin.py:115} INFO - [2024-08-25 18:12:15,764] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-08-25 18:12:15,773] {logging_mixin.py:115} INFO - [2024-08-25 18:12:15,773] {dag.py:2927} INFO - Setting next_dagrun for dados_climaticos to 2024-08-19T00:00:00+00:00, run_after=2024-08-26T00:00:00+00:00
+[2024-08-25 18:12:15,791] {processor.py:161} INFO - Processing /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py took 0.258 seconds
+[2024-08-25 18:12:47,310] {processor.py:153} INFO - Started process (PID=176595) to work on /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 18:12:47,317] {processor.py:641} INFO - Processing file /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py for tasks to queue
+[2024-08-25 18:12:47,318] {logging_mixin.py:115} INFO - [2024-08-25 18:12:47,318] {dagbag.py:507} INFO - Filling up the DagBag from /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 18:12:47,540] {processor.py:651} INFO - DAG(s) dict_keys(['dados_climaticos']) retrieved from /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 18:12:47,547] {logging_mixin.py:115} INFO - [2024-08-25 18:12:47,547] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-08-25 18:12:47,556] {logging_mixin.py:115} INFO - [2024-08-25 18:12:47,556] {dag.py:2927} INFO - Setting next_dagrun for dados_climaticos to 2024-08-19T00:00:00+00:00, run_after=2024-08-26T00:00:00+00:00
+[2024-08-25 18:12:47,573] {processor.py:161} INFO - Processing /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py took 0.269 seconds
+[2024-08-25 18:13:22,597] {processor.py:153} INFO - Started process (PID=176875) to work on /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 18:13:22,598] {processor.py:641} INFO - Processing file /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py for tasks to queue
+[2024-08-25 18:13:22,599] {logging_mixin.py:115} INFO - [2024-08-25 18:13:22,599] {dagbag.py:507} INFO - Filling up the DagBag from /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 18:13:22,823] {processor.py:651} INFO - DAG(s) dict_keys(['dados_climaticos']) retrieved from /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 18:13:22,830] {logging_mixin.py:115} INFO - [2024-08-25 18:13:22,830] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-08-25 18:13:22,841] {logging_mixin.py:115} INFO - [2024-08-25 18:13:22,841] {dag.py:2927} INFO - Setting next_dagrun for dados_climaticos to 2024-08-19T00:00:00+00:00, run_after=2024-08-26T00:00:00+00:00
+[2024-08-25 18:13:22,855] {processor.py:161} INFO - Processing /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py took 0.264 seconds
+[2024-08-25 18:13:53,495] {processor.py:153} INFO - Started process (PID=177116) to work on /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 18:13:53,502] {processor.py:641} INFO - Processing file /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py for tasks to queue
+[2024-08-25 18:13:53,503] {logging_mixin.py:115} INFO - [2024-08-25 18:13:53,503] {dagbag.py:507} INFO - Filling up the DagBag from /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 18:13:53,711] {processor.py:651} INFO - DAG(s) dict_keys(['dados_climaticos']) retrieved from /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 18:13:53,717] {logging_mixin.py:115} INFO - [2024-08-25 18:13:53,717] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-08-25 18:13:53,727] {logging_mixin.py:115} INFO - [2024-08-25 18:13:53,726] {dag.py:2927} INFO - Setting next_dagrun for dados_climaticos to 2024-08-19T00:00:00+00:00, run_after=2024-08-26T00:00:00+00:00
+[2024-08-25 18:13:53,739] {processor.py:161} INFO - Processing /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py took 0.250 seconds
+[2024-08-25 18:14:27,445] {processor.py:153} INFO - Started process (PID=177379) to work on /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 18:14:27,452] {processor.py:641} INFO - Processing file /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py for tasks to queue
+[2024-08-25 18:14:27,453] {logging_mixin.py:115} INFO - [2024-08-25 18:14:27,453] {dagbag.py:507} INFO - Filling up the DagBag from /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 18:14:27,664] {processor.py:651} INFO - DAG(s) dict_keys(['dados_climaticos']) retrieved from /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 18:14:27,672] {logging_mixin.py:115} INFO - [2024-08-25 18:14:27,671] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-08-25 18:14:27,680] {logging_mixin.py:115} INFO - [2024-08-25 18:14:27,680] {dag.py:2927} INFO - Setting next_dagrun for dados_climaticos to 2024-08-19T00:00:00+00:00, run_after=2024-08-26T00:00:00+00:00
+[2024-08-25 18:14:27,700] {processor.py:161} INFO - Processing /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py took 0.262 seconds
+[2024-08-25 18:14:59,210] {processor.py:153} INFO - Started process (PID=177631) to work on /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 18:14:59,217] {processor.py:641} INFO - Processing file /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py for tasks to queue
+[2024-08-25 18:14:59,218] {logging_mixin.py:115} INFO - [2024-08-25 18:14:59,217] {dagbag.py:507} INFO - Filling up the DagBag from /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 18:14:59,451] {processor.py:651} INFO - DAG(s) dict_keys(['dados_climaticos']) retrieved from /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 18:14:59,461] {logging_mixin.py:115} INFO - [2024-08-25 18:14:59,460] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-08-25 18:14:59,472] {logging_mixin.py:115} INFO - [2024-08-25 18:14:59,472] {dag.py:2927} INFO - Setting next_dagrun for dados_climaticos to 2024-08-19T00:00:00+00:00, run_after=2024-08-26T00:00:00+00:00
+[2024-08-25 18:14:59,484] {processor.py:161} INFO - Processing /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py took 0.278 seconds
+[2024-08-25 18:15:36,295] {processor.py:153} INFO - Started process (PID=177919) to work on /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 18:15:36,302] {processor.py:641} INFO - Processing file /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py for tasks to queue
+[2024-08-25 18:15:36,303] {logging_mixin.py:115} INFO - [2024-08-25 18:15:36,303] {dagbag.py:507} INFO - Filling up the DagBag from /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 18:15:36,532] {processor.py:651} INFO - DAG(s) dict_keys(['dados_climaticos']) retrieved from /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 18:15:36,540] {logging_mixin.py:115} INFO - [2024-08-25 18:15:36,540] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-08-25 18:15:36,549] {logging_mixin.py:115} INFO - [2024-08-25 18:15:36,549] {dag.py:2927} INFO - Setting next_dagrun for dados_climaticos to 2024-08-19T00:00:00+00:00, run_after=2024-08-26T00:00:00+00:00
+[2024-08-25 18:15:36,562] {processor.py:161} INFO - Processing /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py took 0.269 seconds
+[2024-08-25 18:16:10,162] {processor.py:153} INFO - Started process (PID=178183) to work on /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 18:16:10,168] {processor.py:641} INFO - Processing file /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py for tasks to queue
+[2024-08-25 18:16:10,169] {logging_mixin.py:115} INFO - [2024-08-25 18:16:10,168] {dagbag.py:507} INFO - Filling up the DagBag from /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 18:16:10,413] {processor.py:651} INFO - DAG(s) dict_keys(['dados_climaticos']) retrieved from /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 18:16:10,425] {logging_mixin.py:115} INFO - [2024-08-25 18:16:10,424] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-08-25 18:16:10,458] {logging_mixin.py:115} INFO - [2024-08-25 18:16:10,458] {dag.py:2927} INFO - Setting next_dagrun for dados_climaticos to 2024-08-19T00:00:00+00:00, run_after=2024-08-26T00:00:00+00:00
+[2024-08-25 18:16:10,472] {processor.py:161} INFO - Processing /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py took 0.312 seconds
+[2024-08-25 18:16:44,144] {processor.py:153} INFO - Started process (PID=178451) to work on /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 18:16:44,151] {processor.py:641} INFO - Processing file /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py for tasks to queue
+[2024-08-25 18:16:44,152] {logging_mixin.py:115} INFO - [2024-08-25 18:16:44,152] {dagbag.py:507} INFO - Filling up the DagBag from /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 18:16:44,375] {processor.py:651} INFO - DAG(s) dict_keys(['dados_climaticos']) retrieved from /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 18:16:44,382] {logging_mixin.py:115} INFO - [2024-08-25 18:16:44,382] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-08-25 18:16:44,391] {logging_mixin.py:115} INFO - [2024-08-25 18:16:44,391] {dag.py:2927} INFO - Setting next_dagrun for dados_climaticos to 2024-08-19T00:00:00+00:00, run_after=2024-08-26T00:00:00+00:00
+[2024-08-25 18:16:44,409] {processor.py:161} INFO - Processing /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py took 0.271 seconds
+[2024-08-25 18:17:15,603] {processor.py:153} INFO - Started process (PID=178701) to work on /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 18:17:15,605] {processor.py:641} INFO - Processing file /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py for tasks to queue
+[2024-08-25 18:17:15,605] {logging_mixin.py:115} INFO - [2024-08-25 18:17:15,605] {dagbag.py:507} INFO - Filling up the DagBag from /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 18:17:15,921] {processor.py:651} INFO - DAG(s) dict_keys(['dados_climaticos']) retrieved from /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 18:17:15,944] {logging_mixin.py:115} INFO - [2024-08-25 18:17:15,943] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-08-25 18:17:15,963] {logging_mixin.py:115} INFO - [2024-08-25 18:17:15,963] {dag.py:2927} INFO - Setting next_dagrun for dados_climaticos to 2024-08-19T00:00:00+00:00, run_after=2024-08-26T00:00:00+00:00
+[2024-08-25 18:17:15,975] {processor.py:161} INFO - Processing /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py took 0.375 seconds
+[2024-08-25 18:17:48,246] {processor.py:153} INFO - Started process (PID=178957) to work on /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 18:17:48,253] {processor.py:641} INFO - Processing file /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py for tasks to queue
+[2024-08-25 18:17:48,254] {logging_mixin.py:115} INFO - [2024-08-25 18:17:48,254] {dagbag.py:507} INFO - Filling up the DagBag from /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 18:17:48,479] {processor.py:651} INFO - DAG(s) dict_keys(['dados_climaticos']) retrieved from /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 18:17:48,487] {logging_mixin.py:115} INFO - [2024-08-25 18:17:48,487] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-08-25 18:17:48,498] {logging_mixin.py:115} INFO - [2024-08-25 18:17:48,498] {dag.py:2927} INFO - Setting next_dagrun for dados_climaticos to 2024-08-19T00:00:00+00:00, run_after=2024-08-26T00:00:00+00:00
+[2024-08-25 18:17:48,517] {processor.py:161} INFO - Processing /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py took 0.274 seconds
+[2024-08-25 18:18:23,853] {processor.py:153} INFO - Started process (PID=179234) to work on /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 18:18:23,860] {processor.py:641} INFO - Processing file /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py for tasks to queue
+[2024-08-25 18:18:23,861] {logging_mixin.py:115} INFO - [2024-08-25 18:18:23,861] {dagbag.py:507} INFO - Filling up the DagBag from /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 18:18:24,094] {processor.py:651} INFO - DAG(s) dict_keys(['dados_climaticos']) retrieved from /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 18:18:24,101] {logging_mixin.py:115} INFO - [2024-08-25 18:18:24,101] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-08-25 18:18:24,110] {logging_mixin.py:115} INFO - [2024-08-25 18:18:24,110] {dag.py:2927} INFO - Setting next_dagrun for dados_climaticos to 2024-08-19T00:00:00+00:00, run_after=2024-08-26T00:00:00+00:00
+[2024-08-25 18:18:24,120] {processor.py:161} INFO - Processing /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py took 0.269 seconds
+[2024-08-25 18:18:59,965] {processor.py:153} INFO - Started process (PID=179519) to work on /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 18:18:59,972] {processor.py:641} INFO - Processing file /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py for tasks to queue
+[2024-08-25 18:18:59,973] {logging_mixin.py:115} INFO - [2024-08-25 18:18:59,972] {dagbag.py:507} INFO - Filling up the DagBag from /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 18:19:00,265] {processor.py:651} INFO - DAG(s) dict_keys(['dados_climaticos']) retrieved from /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 18:19:00,272] {logging_mixin.py:115} INFO - [2024-08-25 18:19:00,272] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-08-25 18:19:00,282] {logging_mixin.py:115} INFO - [2024-08-25 18:19:00,282] {dag.py:2927} INFO - Setting next_dagrun for dados_climaticos to 2024-08-19T00:00:00+00:00, run_after=2024-08-26T00:00:00+00:00
+[2024-08-25 18:19:00,302] {processor.py:161} INFO - Processing /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py took 0.340 seconds
+[2024-08-25 18:19:32,825] {processor.py:153} INFO - Started process (PID=179776) to work on /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 18:19:32,826] {processor.py:641} INFO - Processing file /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py for tasks to queue
+[2024-08-25 18:19:32,826] {logging_mixin.py:115} INFO - [2024-08-25 18:19:32,826] {dagbag.py:507} INFO - Filling up the DagBag from /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 18:19:33,061] {processor.py:651} INFO - DAG(s) dict_keys(['dados_climaticos']) retrieved from /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 18:19:33,068] {logging_mixin.py:115} INFO - [2024-08-25 18:19:33,068] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-08-25 18:19:33,078] {logging_mixin.py:115} INFO - [2024-08-25 18:19:33,078] {dag.py:2927} INFO - Setting next_dagrun for dados_climaticos to 2024-08-19T00:00:00+00:00, run_after=2024-08-26T00:00:00+00:00
+[2024-08-25 18:19:33,096] {processor.py:161} INFO - Processing /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py took 0.278 seconds
+[2024-08-25 18:20:05,529] {processor.py:153} INFO - Started process (PID=180031) to work on /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 18:20:05,535] {processor.py:641} INFO - Processing file /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py for tasks to queue
+[2024-08-25 18:20:05,536] {logging_mixin.py:115} INFO - [2024-08-25 18:20:05,536] {dagbag.py:507} INFO - Filling up the DagBag from /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 18:20:05,910] {processor.py:651} INFO - DAG(s) dict_keys(['dados_climaticos']) retrieved from /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py
+[2024-08-25 18:20:05,918] {logging_mixin.py:115} INFO - [2024-08-25 18:20:05,917] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-08-25 18:20:05,939] {logging_mixin.py:115} INFO - [2024-08-25 18:20:05,939] {dag.py:2927} INFO - Setting next_dagrun for dados_climaticos to 2024-08-19T00:00:00+00:00, run_after=2024-08-26T00:00:00+00:00
+[2024-08-25 18:20:05,964] {processor.py:161} INFO - Processing /home/adrilucy/Documentos/airflow-alura/dags/dados_climaticos.py took 0.439 seconds

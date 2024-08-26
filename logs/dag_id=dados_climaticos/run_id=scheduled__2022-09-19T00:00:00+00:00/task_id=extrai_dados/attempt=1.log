@@ -1,0 +1,73 @@
+[2024-08-25 17:33:54,260] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: dados_climaticos.extrai_dados scheduled__2022-09-19T00:00:00+00:00 [queued]>
+[2024-08-25 17:33:54,264] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: dados_climaticos.extrai_dados scheduled__2022-09-19T00:00:00+00:00 [queued]>
+[2024-08-25 17:33:54,265] {taskinstance.py:1356} INFO - 
+--------------------------------------------------------------------------------
+[2024-08-25 17:33:54,265] {taskinstance.py:1357} INFO - Starting attempt 1 of 1
+[2024-08-25 17:33:54,265] {taskinstance.py:1358} INFO - 
+--------------------------------------------------------------------------------
+[2024-08-25 17:33:54,291] {taskinstance.py:1377} INFO - Executing <Task(PythonOperator): extrai_dados> on 2022-09-19 00:00:00+00:00
+[2024-08-25 17:33:54,294] {standard_task_runner.py:52} INFO - Started process 157483 to run task
+[2024-08-25 17:33:54,297] {standard_task_runner.py:79} INFO - Running: ['airflow', 'tasks', 'run', 'dados_climaticos', 'extrai_dados', 'scheduled__2022-09-19T00:00:00+00:00', '--job-id', '29', '--raw', '--subdir', 'DAGS_FOLDER/dados_climaticos.py', '--cfg-path', '/tmp/tmpxd0pm6mx', '--error-file', '/tmp/tmp1uxeohec']
+[2024-08-25 17:33:54,297] {standard_task_runner.py:80} INFO - Job 29: Subtask extrai_dados
+[2024-08-25 17:33:54,344] {task_command.py:370} INFO - Running <TaskInstance: dados_climaticos.extrai_dados scheduled__2022-09-19T00:00:00+00:00 [running]> on host adrilucy.
+[2024-08-25 17:33:54,375] {taskinstance.py:1889} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/adrilucy/Documentos/airflow-alura/venv/lib/python3.9/site-packages/airflow/models/taskinstance.py", line 1451, in _run_raw_task
+    self._execute_task_with_callbacks(context, test_mode)
+  File "/home/adrilucy/Documentos/airflow-alura/venv/lib/python3.9/site-packages/airflow/models/taskinstance.py", line 1555, in _execute_task_with_callbacks
+    task_orig = self.render_templates(context=context)
+  File "/home/adrilucy/Documentos/airflow-alura/venv/lib/python3.9/site-packages/airflow/models/taskinstance.py", line 2212, in render_templates
+    rendered_task = self.task.render_template_fields(context)
+  File "/home/adrilucy/Documentos/airflow-alura/venv/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 1185, in render_template_fields
+    self._do_render_template_fields(self, self.template_fields, context, jinja_env, set())
+  File "/home/adrilucy/Documentos/airflow-alura/venv/lib/python3.9/site-packages/airflow/utils/session.py", line 71, in wrapper
+    return func(*args, session=session, **kwargs)
+  File "/home/adrilucy/Documentos/airflow-alura/venv/lib/python3.9/site-packages/airflow/models/abstractoperator.py", line 344, in _do_render_template_fields
+    rendered_content = self.render_template(
+  File "/home/adrilucy/Documentos/airflow-alura/venv/lib/python3.9/site-packages/airflow/models/abstractoperator.py", line 404, in render_template
+    return {key: self.render_template(value, context, jinja_env) for key, value in value.items()}
+  File "/home/adrilucy/Documentos/airflow-alura/venv/lib/python3.9/site-packages/airflow/models/abstractoperator.py", line 404, in <dictcomp>
+    return {key: self.render_template(value, context, jinja_env) for key, value in value.items()}
+  File "/home/adrilucy/Documentos/airflow-alura/venv/lib/python3.9/site-packages/airflow/models/abstractoperator.py", line 391, in render_template
+    return render_template_to_string(template, context)
+  File "/home/adrilucy/Documentos/airflow-alura/venv/lib/python3.9/site-packages/airflow/utils/helpers.py", line 296, in render_template_to_string
+    return render_template(template, context, native=False)
+  File "/home/adrilucy/Documentos/airflow-alura/venv/lib/python3.9/site-packages/airflow/utils/helpers.py", line 291, in render_template
+    return "".join(nodes)
+  File "<template>", line 12, in root
+  File "/home/adrilucy/Documentos/airflow-alura/venv/lib/python3.9/site-packages/jinja2/sandbox.py", line 391, in call
+    if not __self.is_safe_callable(__obj):
+  File "/home/adrilucy/Documentos/airflow-alura/venv/lib/python3.9/site-packages/jinja2/sandbox.py", line 275, in is_safe_callable
+    getattr(obj, "unsafe_callable", False) or getattr(obj, "alters_data", False)
+  File "/home/adrilucy/Documentos/airflow-alura/venv/lib/python3.9/site-packages/jinja2/runtime.py", line 910, in __getattr__
+    return self._fail_with_undefined_error()
+  File "/home/adrilucy/Documentos/airflow-alura/venv/lib/python3.9/site-packages/jinja2/runtime.py", line 903, in _fail_with_undefined_error
+    raise self._undefined_exception(self._undefined_message)
+jinja2.exceptions.UndefinedError: 'pendulum.datetime.DateTime object' has no attribute 'srtftime'
+[2024-08-25 17:33:54,378] {taskinstance.py:1395} INFO - Marking task as FAILED. dag_id=dados_climaticos, task_id=extrai_dados, execution_date=20220919T000000, start_date=20240825T203354, end_date=20240825T203354
+[2024-08-25 17:33:54,405] {standard_task_runner.py:92} ERROR - Failed to execute job 29 for task extrai_dados ('pendulum.datetime.DateTime object' has no attribute 'srtftime'; 157483)
+[2024-08-25 17:33:54,430] {local_task_job.py:156} INFO - Task exited with return code 1
+[2024-08-25 17:33:54,441] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-08-25 17:41:42,936] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: dados_climaticos.extrai_dados scheduled__2022-09-19T00:00:00+00:00 [queued]>
+[2024-08-25 17:41:42,944] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: dados_climaticos.extrai_dados scheduled__2022-09-19T00:00:00+00:00 [queued]>
+[2024-08-25 17:41:42,944] {taskinstance.py:1356} INFO - 
+--------------------------------------------------------------------------------
+[2024-08-25 17:41:42,945] {taskinstance.py:1357} INFO - Starting attempt 1 of 1
+[2024-08-25 17:41:42,945] {taskinstance.py:1358} INFO - 
+--------------------------------------------------------------------------------
+[2024-08-25 17:41:42,958] {taskinstance.py:1377} INFO - Executing <Task(PythonOperator): extrai_dados> on 2022-09-19 00:00:00+00:00
+[2024-08-25 17:41:42,960] {standard_task_runner.py:52} INFO - Started process 161582 to run task
+[2024-08-25 17:41:42,962] {standard_task_runner.py:79} INFO - Running: ['airflow', 'tasks', 'run', 'dados_climaticos', 'extrai_dados', 'scheduled__2022-09-19T00:00:00+00:00', '--job-id', '31', '--raw', '--subdir', 'DAGS_FOLDER/dados_climaticos.py', '--cfg-path', '/tmp/tmpopas33pl', '--error-file', '/tmp/tmpkuowd0ai']
+[2024-08-25 17:41:42,962] {standard_task_runner.py:80} INFO - Job 31: Subtask extrai_dados
+[2024-08-25 17:41:42,997] {task_command.py:370} INFO - Running <TaskInstance: dados_climaticos.extrai_dados scheduled__2022-09-19T00:00:00+00:00 [running]> on host adrilucy.
+[2024-08-25 17:41:43,052] {taskinstance.py:1569} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=dados_climaticos
+AIRFLOW_CTX_TASK_ID=extrai_dados
+AIRFLOW_CTX_EXECUTION_DATE=2022-09-19T00:00:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2022-09-19T00:00:00+00:00
+[2024-08-25 17:41:43,794] {python.py:173} INFO - Done. Returned value was: None
+[2024-08-25 17:41:43,798] {taskinstance.py:1395} INFO - Marking task as SUCCESS. dag_id=dados_climaticos, task_id=extrai_dados, execution_date=20220919T000000, start_date=20240825T204142, end_date=20240825T204143
+[2024-08-25 17:41:43,824] {local_task_job.py:156} INFO - Task exited with return code 0
+[2024-08-25 17:41:43,835] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check

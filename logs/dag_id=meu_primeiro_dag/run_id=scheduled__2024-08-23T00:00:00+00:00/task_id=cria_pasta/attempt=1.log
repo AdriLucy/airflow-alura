@@ -1,0 +1,27 @@
+[2024-08-25 16:59:36,340] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: meu_primeiro_dag.cria_pasta scheduled__2024-08-23T00:00:00+00:00 [queued]>
+[2024-08-25 16:59:36,344] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: meu_primeiro_dag.cria_pasta scheduled__2024-08-23T00:00:00+00:00 [queued]>
+[2024-08-25 16:59:36,344] {taskinstance.py:1356} INFO - 
+--------------------------------------------------------------------------------
+[2024-08-25 16:59:36,344] {taskinstance.py:1357} INFO - Starting attempt 1 of 1
+[2024-08-25 16:59:36,344] {taskinstance.py:1358} INFO - 
+--------------------------------------------------------------------------------
+[2024-08-25 16:59:36,356] {taskinstance.py:1377} INFO - Executing <Task(BashOperator): cria_pasta> on 2024-08-23 00:00:00+00:00
+[2024-08-25 16:59:36,358] {standard_task_runner.py:52} INFO - Started process 141203 to run task
+[2024-08-25 16:59:36,360] {standard_task_runner.py:79} INFO - Running: ['airflow', 'tasks', 'run', 'meu_primeiro_dag', 'cria_pasta', 'scheduled__2024-08-23T00:00:00+00:00', '--job-id', '13', '--raw', '--subdir', 'DAGS_FOLDER/meu_primeiro_dag.py', '--cfg-path', '/tmp/tmpka0hg7bk', '--error-file', '/tmp/tmpbux07efr']
+[2024-08-25 16:59:36,360] {standard_task_runner.py:80} INFO - Job 13: Subtask cria_pasta
+[2024-08-25 16:59:36,391] {task_command.py:370} INFO - Running <TaskInstance: meu_primeiro_dag.cria_pasta scheduled__2024-08-23T00:00:00+00:00 [running]> on host adrilucy.
+[2024-08-25 16:59:36,427] {taskinstance.py:1569} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=meu_primeiro_dag
+AIRFLOW_CTX_TASK_ID=cria_pasta
+AIRFLOW_CTX_EXECUTION_DATE=2024-08-23T00:00:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2024-08-23T00:00:00+00:00
+[2024-08-25 16:59:36,428] {subprocess.py:62} INFO - Tmp dir root location: 
+ /tmp
+[2024-08-25 16:59:36,428] {subprocess.py:74} INFO - Running command: ['bash', '-c', 'mkdir -p "/home/adrilucy/Documentos/airflow-alura/pasta=2024-08-24T00:00:00+00:00"']
+[2024-08-25 16:59:36,431] {subprocess.py:85} INFO - Output:
+[2024-08-25 16:59:36,433] {subprocess.py:96} INFO - Command exited with return code 0
+[2024-08-25 16:59:36,450] {taskinstance.py:1395} INFO - Marking task as SUCCESS. dag_id=meu_primeiro_dag, task_id=cria_pasta, execution_date=20240823T000000, start_date=20240825T195936, end_date=20240825T195936
+[2024-08-25 16:59:36,493] {local_task_job.py:156} INFO - Task exited with return code 0
+[2024-08-25 16:59:36,508] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check
